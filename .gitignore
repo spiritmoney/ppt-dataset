@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.pytest_cache/
+
+# Runtime data (persist on droplet, not in git)
+data/audit/
+data/manifests/
+data/reports/
+data/logs/
+data/raw/
+data/qualified/
+data/rejected/
+data/staging/
+*.db
+*.db-journal
+
+# Logs
+*.log

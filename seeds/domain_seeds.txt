@@ -1,0 +1,82 @@
+# Domains for web-scale URL discovery via crawl + sitemaps.
+# Add thousands of diverse, non-blocklisted domains for 6M scale.
+# One domain per line (no scheme). Lines starting with # are ignored.
+
+# US government (non-research-lab)
+nist.gov
+cdc.gov
+fda.gov
+hhs.gov
+sba.gov
+sec.gov
+ftc.gov
+energy.gov
+transportation.gov
+commerce.gov
+usda.gov
+epa.gov
+dhs.gov
+treasury.gov
+va.gov
+nasa.gov
+
+# International organizations
+who.int
+un.org
+worldbank.org
+oecd.org
+imf.org
+europa.eu
+ec.europa.eu
+
+# Professional / industry associations
+asme.org
+ieee.org
+acm.org
+pmi.org
+shrm.org
+ama-assn.org
+aia.org
+nspe.org
+
+# Open data / public archives
+data.gov
+archive.org
+cdn.jsdelivr.net
+
+# Regional / municipal
+london.gov.uk
+gov.uk
+canada.ca
+gc.ca
+
+# Independent publishers / design communities
+behance.net
+dribbble.com
+creativecommons.org
+wikimedia.org
+
+# Conference / slide hosts (public decks)
+speakerdeck.com
+slideshare.net
+
+# NGOs / nonprofits
+redcross.org
+unicef.org
+wfp.org
+doctorswithoutborders.org
+
+# Small-business / startup ecosystems
+ycombinator.com
+techstars.com
+
+# Additional diverse sources — expand this list for production 6M runs
+opensource.com
+mozilla.org
+apache.org
+linuxfoundation.org
+fsf.org
+eff.org
+cisa.gov
+nist.gov
+nsf.gov

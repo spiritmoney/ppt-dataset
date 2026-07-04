@@ -1,0 +1,4 @@
+# Live integration test seeds — real public web targets
+https://www.nist.gov/publications
+https://www.sba.gov/document/support
+https://www.cdc.gov/media/

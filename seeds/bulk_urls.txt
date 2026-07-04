@@ -1,0 +1,3 @@
+# Optional: direct presentation URLs (one per line) for supplemental bulk enqueue.
+# Primary discovery is via: python cli.py discover-web
+# The continuous run loop also auto-discovers from seeds/domain_seeds.txt.

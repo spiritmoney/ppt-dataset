@@ -1,0 +1,2855 @@
+# Fortune 500 companies and major subsidiaries (2024/2025)
+# Source: Fortune 500 rankings + major private/consulting equivalents
+# Last updated: 2026-07-03
+# Match against: source_url, download_domain, organization, title, author, slide text
+
+version: '2026-07-03'
+match_mode: fuzzy
+companies:
+- name: Walmart Inc.
+  domains:
+  - walmart.com
+  aliases:
+  - Walmart
+- name: Amazon.com Inc.
+  domains:
+  - amazon.com
+  - aws.amazon.com
+  aliases:
+  - AWS
+  - Amazon
+- name: UnitedHealth Group Inc.
+  domains:
+  - uhc.com
+  - unitedhealthgroup.com
+  aliases:
+  - United Healthcare
+  - UnitedHealth
+- name: Apple Inc.
+  domains:
+  - apple.com
+  aliases:
+  - Apple
+- name: CVS Health Corp.
+  domains:
+  - cvs.com
+  - cvshealth.com
+  aliases:
+  - CVS
+  - CVS Health
+- name: Berkshire Hathaway Inc.
+  domains:
+  - berkshirehathaway.com
+  aliases:
+  - Berkshire Hathaway
+- name: Alphabet Inc.
+  domains:
+  - alphabet.com
+  - google.com
+  - youtube.com
+  aliases:
+  - Alphabet
+  - Google
+- name: Exxon Mobil Corp.
+  domains:
+  - exxonmobil.com
+  aliases:
+  - Exxon
+  - ExxonMobil
+- name: McKesson Corp.
+  domains:
+  - mckesson.com
+  aliases:
+  - McKesson
+- name: Cencora Inc.
+  domains:
+  - amerisourcebergen.com
+  - cencora.com
+  aliases:
+  - AmerisourceBergen
+  - Cencora
+- name: JPMorgan Chase & Co.
+  domains:
+  - jpmorgan.com
+  - jpmorganchase.com
+  aliases:
+  - Chase
+  - JPMorgan
+- name: Costco Wholesale Corp.
+  domains:
+  - costco.com
+  aliases:
+  - Costco
+- name: Cigna Group
+  domains:
+  - cigna.com
+  - evernorth.com
+  aliases:
+  - Cigna
+- name: Microsoft Corp.
+  domains:
+  - microsoft.com
+  aliases:
+  - MSFT
+  - Microsoft
+- name: Cardinal Health Inc.
+  domains:
+  - cardinalhealth.com
+  aliases:
+  - Cardinal Health
+- name: Chevron Corp.
+  domains:
+  - chevron.com
+  aliases:
+  - Chevron
+- name: Bank of America Corp.
+  domains:
+  - bankofamerica.com
+  - bofa.com
+  aliases:
+  - Bank of America
+  - BofA
+- name: General Motors Co.
+  domains:
+  - gm.com
+  aliases:
+  - GM
+  - General Motors
+- name: Ford Motor Co.
+  domains:
+  - ford.com
+  aliases:
+  - Ford
+- name: Elevance Health Inc.
+  domains:
+  - anthem.com
+  - elevancehealth.com
+  aliases:
+  - Anthem
+  - Elevance
+- name: Citigroup Inc.
+  domains:
+  - citi.com
+  - citigroup.com
+  aliases:
+  - Citi
+  - Citigroup
+- name: Meta Platforms Inc.
+  domains:
+  - facebook.com
+  - instagram.com
+  - meta.com
+  aliases:
+  - Facebook
+  - Meta
+- name: Centene Corp.
+  domains:
+  - centene.com
+  aliases:
+  - Centene
+- name: Home Depot Inc.
+  domains:
+  - homedepot.com
+  aliases:
+  - Home Depot
+  - The Home Depot
+- name: Fannie Mae
+  domains:
+  - fanniemae.com
+  aliases:
+  - Fannie Mae
+- name: Walgreens Boots Alliance Inc.
+  domains:
+  - walgreens.com
+  - walgreensbootsalliance.com
+  aliases:
+  - Walgreens
+- name: Kroger Co.
+  domains:
+  - kroger.com
+  aliases:
+  - Kroger
+- name: Phillips 66
+  domains:
+  - phillips66.com
+  aliases:
+  - Phillips 66
+- name: Marathon Petroleum Corp.
+  domains:
+  - marathonpetroleum.com
+  aliases:
+  - Marathon Petroleum
+- name: Verizon Communications Inc.
+  domains:
+  - verizon.com
+  aliases:
+  - Verizon
+- name: NVIDIA Corp.
+  domains:
+  - nvidia.com
+  aliases:
+  - NVIDIA
+- name: Goldman Sachs Group Inc.
+  domains:
+  - goldmansachs.com
+  aliases:
+  - Goldman Sachs
+- name: Wells Fargo & Co.
+  domains:
+  - wellsfargo.com
+  aliases:
+  - Wells Fargo
+- name: Valero Energy Corp.
+  domains:
+  - valero.com
+  aliases:
+  - Valero
+- name: Comcast Corp.
+  domains:
+  - comcast.com
+  - nbcuniversal.com
+  aliases:
+  - Comcast
+  - NBCUniversal
+- name: State Farm Insurance
+  domains:
+  - statefarm.com
+  aliases:
+  - State Farm
+- name: AT&T Inc.
+  domains:
+  - att.com
+  aliases:
+  - AT&T
+- name: Freddie Mac
+  domains:
+  - freddiemac.com
+  aliases:
+  - Freddie Mac
+- name: Humana Inc.
+  domains:
+  - humana.com
+  aliases:
+  - Humana
+- name: Morgan Stanley
+  domains:
+  - morganstanley.com
+  aliases:
+  - Morgan Stanley
+- name: Target Corp.
+  domains:
+  - target.com
+  aliases:
+  - Target
+- name: StoneX Group Inc.
+  domains:
+  - stonex.com
+  aliases:
+  - StoneX
+- name: Tesla Inc.
+  domains:
+  - tesla.com
+  aliases:
+  - Tesla
+- name: Dell Technologies Inc.
+  domains:
+  - dell.com
+  aliases:
+  - Dell
+- name: PepsiCo Inc.
+  domains:
+  - pepsico.com
+  aliases:
+  - Pepsi
+  - PepsiCo
+- name: Walt Disney Co.
+  domains:
+  - disney.com
+  - thewaltdisneycompany.com
+  aliases:
+  - Disney
+- name: United Parcel Service Inc.
+  domains:
+  - ups.com
+  aliases:
+  - UPS
+- name: Johnson & Johnson
+  domains:
+  - jnj.com
+  aliases:
+  - J&J
+  - Johnson and Johnson
+- name: FedEx Corp.
+  domains:
+  - fedex.com
+  aliases:
+  - FedEx
+- name: Archer Daniels Midland Co.
+  domains:
+  - adm.com
+  aliases:
+  - ADM
+  - Archer Daniels Midland
+- name: Procter & Gamble Co.
+  domains:
+  - pg.com
+  aliases:
+  - P&G
+  - Procter and Gamble
+- name: Lowe's Cos. Inc.
+  domains:
+  - lowes.com
+  aliases:
+  - Lowe's
+  - Lowes
+- name: Energy Transfer LP
+  domains:
+  - energytransfer.com
+  aliases:
+  - Energy Transfer
+- name: RTX Corp.
+  domains:
+  - raytheon.com
+  - rtx.com
+  aliases:
+  - RTX
+  - Raytheon
+- name: Albertsons Cos. Inc.
+  domains:
+  - albertsonscompanies.com
+  aliases:
+  - Albertsons
+- name: Sysco Corp.
+  domains:
+  - sysco.com
+  aliases:
+  - Sysco
+- name: Progressive Corp.
+  domains:
+  - progressive.com
+  aliases:
+  - Progressive
+- name: American Express Co.
+  domains:
+  - americanexpress.com
+  - amex.com
+  aliases:
+  - American Express
+  - Amex
+- name: Lockheed Martin Corp.
+  domains:
+  - lockheedmartin.com
+  aliases:
+  - Lockheed Martin
+- name: MetLife Inc.
+  domains:
+  - metlife.com
+  aliases:
+  - MetLife
+- name: HCA Healthcare Inc.
+  domains:
+  - hcahealthcare.com
+  aliases:
+  - HCA
+- name: Prudential Financial Inc.
+  domains:
+  - prudential.com
+  aliases:
+  - Prudential
+- name: Boeing Co.
+  domains:
+  - boeing.com
+  aliases:
+  - Boeing
+- name: Caterpillar Inc.
+  domains:
+  - cat.com
+  - caterpillar.com
+  aliases:
+  - CAT
+  - Caterpillar
+- name: Merck & Co. Inc.
+  domains:
+  - merck.com
+  aliases:
+  - Merck
+- name: Allstate Corp.
+  domains:
+  - allstate.com
+  aliases:
+  - Allstate
+- name: Pfizer Inc.
+  domains:
+  - pfizer.com
+  aliases:
+  - Pfizer
+- name: IBM Corp.
+  domains:
+  - ibm.com
+  aliases:
+  - IBM
+- name: New York Life Insurance Co.
+  domains:
+  - newyorklife.com
+  aliases:
+  - New York Life
+- name: Delta Air Lines Inc.
+  domains:
+  - delta.com
+  aliases:
+  - Delta
+- name: Publix Super Markets Inc.
+  domains:
+  - publix.com
+  aliases:
+  - Publix
+- name: Nationwide Mutual Insurance Co.
+  domains:
+  - nationwide.com
+  aliases:
+  - Nationwide
+- name: TD Synnex Corp.
+  domains:
+  - tdsynnex.com
+  aliases:
+  - TD Synnex
+- name: United Airlines Holdings Inc.
+  domains:
+  - united.com
+  aliases:
+  - United Airlines
+- name: ConocoPhillips
+  domains:
+  - conocophillips.com
+  aliases:
+  - ConocoPhillips
+- name: TJX Cos. Inc.
+  domains:
+  - tjmaxx.com
+  - tjx.com
+  aliases:
+  - TJ Maxx
+  - TJX
+- name: AbbVie Inc.
+  domains:
+  - abbvie.com
+  aliases:
+  - AbbVie
+- name: Enterprise Products Partners LP
+  domains:
+  - enterpriseproducts.com
+  aliases:
+  - Enterprise Products
+- name: Charter Communications Inc.
+  domains:
+  - charter.com
+  - spectrum.com
+  aliases:
+  - Charter
+  - Spectrum
+- name: Performance Food Group Co.
+  domains:
+  - pfgc.com
+  aliases:
+  - Performance Food Group
+- name: American Airlines Group Inc.
+  domains:
+  - aa.com
+  aliases:
+  - American Airlines
+- name: Capital One Financial Corp.
+  domains:
+  - capitalone.com
+  aliases:
+  - Capital One
+- name: Cisco Systems Inc.
+  domains:
+  - cisco.com
+  aliases:
+  - Cisco
+- name: HP Inc.
+  domains:
+  - hp.com
+  aliases:
+  - HP
+  - Hewlett-Packard
+- name: Tyson Foods Inc.
+  domains:
+  - tysonfoods.com
+  aliases:
+  - Tyson
+- name: Intel Corp.
+  domains:
+  - intel.com
+  aliases:
+  - Intel
+- name: Oracle Corp.
+  domains:
+  - oracle.com
+  aliases:
+  - Oracle
+- name: Broadcom Inc.
+  domains:
+  - broadcom.com
+  aliases:
+  - Broadcom
+- name: Deere & Co.
+  domains:
+  - deere.com
+  - johndeere.com
+  aliases:
+  - Deere
+  - John Deere
+- name: Nike Inc.
+  domains:
+  - nike.com
+  aliases:
+  - Nike
+- name: Liberty Mutual Insurance Group
+  domains:
+  - libertymutual.com
+  aliases:
+  - Liberty Mutual
+- name: Plains GP Holdings LP
+  domains:
+  - plains.com
+  aliases:
+  - Plains All American
+- name: USAA
+  domains:
+  - usaa.com
+  aliases:
+  - USAA
+- name: Bristol-Myers Squibb Co.
+  domains:
+  - bms.com
+  aliases:
+  - BMS
+  - Bristol-Myers Squibb
+- name: Ingram Micro Holding Corp.
+  domains:
+  - ingrammicro.com
+  aliases:
+  - Ingram Micro
+- name: General Dynamics Corp.
+  domains:
+  - gd.com
+  aliases:
+  - General Dynamics
+- name: Coca-Cola Co.
+  domains:
+  - coca-colacompany.com
+  aliases:
+  - Coca-Cola
+  - Coke
+- name: TIAA
+  domains:
+  - tiaa.org
+  aliases:
+  - TIAA
+- name: Travelers Cos. Inc.
+  domains:
+  - travelers.com
+  aliases:
+  - Travelers
+- name: Eli Lilly and Co.
+  domains:
+  - lilly.com
+  aliases:
+  - Eli Lilly
+  - Lilly
+- name: Massachusetts Mutual Life Insurance Co.
+  domains:
+  - massmutual.com
+  aliases:
+  - MassMutual
+- name: Dow Inc.
+  domains:
+  - dow.com
+  aliases:
+  - Dow
+- name: Thermo Fisher Scientific Inc.
+  domains:
+  - thermofisher.com
+  aliases:
+  - Thermo Fisher
+- name: U.S. Bancorp
+  domains:
+  - usbank.com
+  aliases:
+  - US Bank
+- name: World Kinect Corp.
+  domains:
+  - worldkinect.com
+  aliases:
+  - World Kinect
+- name: Abbott Laboratories
+  domains:
+  - abbott.com
+  aliases:
+  - Abbott
+- name: Best Buy Co. Inc.
+  domains:
+  - bestbuy.com
+  aliases:
+  - Best Buy
+- name: Northrop Grumman Corp.
+  domains:
+  - northropgrumman.com
+  aliases:
+  - Northrop Grumman
+- name: Molson Coors Beverage Co.
+  domains:
+  - molsoncoors.com
+  aliases:
+  - Molson Coors
+- name: Dollar General Corp.
+  domains:
+  - dollargeneral.com
+  aliases:
+  - Dollar General
+- name: Honeywell International Inc.
+  domains:
+  - honeywell.com
+  aliases:
+  - Honeywell
+- name: Mondelez International Inc.
+  domains:
+  - mondelezinternational.com
+  aliases:
+  - Mondelez
+- name: Starbucks Corp.
+  domains:
+  - starbucks.com
+  aliases:
+  - Starbucks
+- name: Qualcomm Inc.
+  domains:
+  - qualcomm.com
+  aliases:
+  - Qualcomm
+- name: Broadridge Financial Solutions Inc.
+  domains:
+  - broadridge.com
+  aliases:
+  - Broadridge
+- name: Gilead Sciences Inc.
+  domains:
+  - gilead.com
+  aliases:
+  - Gilead
+- name: PBF Energy Inc.
+  domains:
+  - pbfenergy.com
+  aliases:
+  - PBF Energy
+- name: Duke Energy Corp.
+  domains:
+  - duke-energy.com
+  aliases:
+  - Duke Energy
+- name: Nucor Corp.
+  domains:
+  - nucor.com
+  aliases:
+  - Nucor
+- name: Penske Automotive Group Inc.
+  domains:
+  - penskeautomotive.com
+  aliases:
+  - Penske Automotive
+- name: Paccar Inc.
+  domains:
+  - paccar.com
+  aliases:
+  - Paccar
+- name: Amgen Inc.
+  domains:
+  - amgen.com
+  aliases:
+  - Amgen
+- name: Cummins Inc.
+  domains:
+  - cummins.com
+  aliases:
+  - Cummins
+- name: Pioneer Natural Resources Co.
+  domains:
+  - pxd.com
+  aliases:
+  - Pioneer Natural Resources
+- name: Salesforce Inc.
+  domains:
+  - salesforce.com
+  aliases:
+  - Salesforce
+- name: Warner Bros. Discovery Inc.
+  domains:
+  - wbd.com
+  aliases:
+  - Warner Bros Discovery
+- name: Arrow Electronics Inc.
+  domains:
+  - arrow.com
+  aliases:
+  - Arrow Electronics
+- name: HF Sinclair Corp.
+  domains:
+  - hfsinclair.com
+  aliases:
+  - HF Sinclair
+- name: Dollar Tree Inc.
+  domains:
+  - dollartree.com
+  - familydollar.com
+  aliases:
+  - Dollar Tree
+  - Family Dollar
+- name: Kraft Heinz Co.
+  domains:
+  - kraftheinzcompany.com
+  aliases:
+  - Kraft Heinz
+- name: Macy's Inc.
+  domains:
+  - macysinc.com
+  aliases:
+  - Macy's
+- name: US Foods Holding Corp.
+  domains:
+  - usfoods.com
+  aliases:
+  - US Foods
+- name: Cheniere Energy Inc.
+  domains:
+  - cheniere.com
+  aliases:
+  - Cheniere
+- name: Netflix Inc.
+  domains:
+  - netflix.com
+  aliases:
+  - Netflix
+- name: Philip Morris International Inc.
+  domains:
+  - pmi.com
+  aliases:
+  - Philip Morris
+- name: CarMax Inc.
+  domains:
+  - carmax.com
+  aliases:
+  - CarMax
+- name: Mastercard Inc.
+  domains:
+  - mastercard.com
+  aliases:
+  - Mastercard
+- name: NRG Energy Inc.
+  domains:
+  - nrg.com
+  aliases:
+  - NRG Energy
+- name: Jabil Inc.
+  domains:
+  - jabil.com
+  aliases:
+  - Jabil
+- name: Cheniere Energy Partners LP
+  domains:
+  - cheniere.com
+  aliases:
+  - Cheniere
+- name: Parker-Hannifin Corp.
+  domains:
+  - parker.com
+  aliases:
+  - Parker Hannifin
+- name: ManpowerGroup Inc.
+  domains:
+  - manpowergroup.com
+  aliases:
+  - ManpowerGroup
+- name: Avnet Inc.
+  domains:
+  - avnet.com
+  aliases:
+  - Avnet
+- name: PayPal Holdings Inc.
+  domains:
+  - paypal.com
+  aliases:
+  - PayPal
+- name: Lear Corp.
+  domains:
+  - lear.com
+  aliases:
+  - Lear
+- name: Genuine Parts Co.
+  domains:
+  - genpt.com
+  aliases:
+  - Genuine Parts
+  - NAPA
+- name: American International Group Inc.
+  domains:
+  - aig.com
+  aliases:
+  - AIG
+- name: Cleveland-Cliffs Inc.
+  domains:
+  - clevelandcliffs.com
+  aliases:
+  - Cleveland-Cliffs
+- name: Sherwin-Williams Co.
+  domains:
+  - sherwin-williams.com
+  aliases:
+  - Sherwin-Williams
+- name: Marsh & McLennan Cos. Inc.
+  domains:
+  - mmc.com
+  aliases:
+  - Marsh McLennan
+- name: CBRE Group Inc.
+  domains:
+  - cbre.com
+  aliases:
+  - CBRE
+- name: Micron Technology Inc.
+  domains:
+  - micron.com
+  aliases:
+  - Micron
+- name: Colgate-Palmolive Co.
+  domains:
+  - colgatepalmolive.com
+  aliases:
+  - Colgate-Palmolive
+- name: PG&E Corp.
+  domains:
+  - pgecorp.com
+  aliases:
+  - PG&E
+- name: Occidental Petroleum Corp.
+  domains:
+  - oxy.com
+  aliases:
+  - Occidental
+  - Oxy
+- name: Nordstrom Inc.
+  domains:
+  - nordstrom.com
+  aliases:
+  - Nordstrom
+- name: Exelon Corp.
+  domains:
+  - exeloncorp.com
+  aliases:
+  - Exelon
+- name: Cognizant Technology Solutions Corp.
+  domains:
+  - cognizant.com
+  aliases:
+  - Cognizant
+- name: General Electric Co.
+  domains:
+  - ge.com
+  - geaerospace.com
+  - gevernova.com
+  aliases:
+  - GE
+  - General Electric
+- name: Truist Financial Corp.
+  domains:
+  - truist.com
+  aliases:
+  - Truist
+- name: Hewlett Packard Enterprise Co.
+  domains:
+  - hpe.com
+  aliases:
+  - HPE
+- name: Kohl's Corp.
+  domains:
+  - kohls.com
+  aliases:
+  - Kohl's
+- name: Raymond James Financial Inc.
+  domains:
+  - raymondjames.com
+  aliases:
+  - Raymond James
+- name: Viatris Inc.
+  domains:
+  - viatris.com
+  aliases:
+  - Viatris
+- name: NextEra Energy Inc.
+  domains:
+  - nexteraenergy.com
+  aliases:
+  - NextEra
+- name: United Natural Foods Inc.
+  domains:
+  - unfi.com
+  aliases:
+  - UNFI
+- name: Danaher Corp.
+  domains:
+  - danaher.com
+  aliases:
+  - Danaher
+- name: Southern Co.
+  domains:
+  - southerncompany.com
+  aliases:
+  - Southern Company
+- name: Marriott International Inc.
+  domains:
+  - marriott.com
+  aliases:
+  - Marriott
+- name: EOG Resources Inc.
+  domains:
+  - eogresources.com
+  aliases:
+  - EOG Resources
+- name: Freeport-McMoRan Inc.
+  domains:
+  - fcx.com
+  aliases:
+  - Freeport-McMoRan
+- name: Emerson Electric Co.
+  domains:
+  - emerson.com
+  aliases:
+  - Emerson
+- name: 3M Co.
+  domains:
+  - 3m.com
+  aliases:
+  - 3M
+- name: S&P Global Inc.
+  domains:
+  - spglobal.com
+  aliases:
+  - S&P Global
+- name: Goodyear Tire & Rubber Co.
+  domains:
+  - goodyear.com
+  aliases:
+  - Goodyear
+- name: Lennar Corp.
+  domains:
+  - lennar.com
+  aliases:
+  - Lennar
+- name: Farmers Insurance Exchange
+  domains:
+  - farmers.com
+  aliases:
+  - Farmers Insurance
+- name: PPG Industries Inc.
+  domains:
+  - ppg.com
+  aliases:
+  - PPG
+- name: CDW Corp.
+  domains:
+  - cdw.com
+  aliases:
+  - CDW
+- name: Molina Healthcare Inc.
+  domains:
+  - molinahealthcare.com
+  aliases:
+  - Molina
+- name: Icahn Enterprises LP
+  domains:
+  - ielp.com
+  aliases:
+  - Icahn Enterprises
+- name: Carvana Co.
+  domains:
+  - carvana.com
+  aliases:
+  - Carvana
+- name: Aramark
+  domains:
+  - aramark.com
+  aliases:
+  - Aramark
+- name: Lithia Motors Inc.
+  domains:
+  - lithiadriveway.com
+  aliases:
+  - Lithia Motors
+- name: Ecolab Inc.
+  domains:
+  - ecolab.com
+  aliases:
+  - Ecolab
+- name: Land O'Lakes Inc.
+  domains:
+  - landolakesinc.com
+  aliases:
+  - Land O'Lakes
+- name: Xcel Energy Inc.
+  domains:
+  - xcelenergy.com
+  aliases:
+  - Xcel Energy
+- name: Republic Services Inc.
+  domains:
+  - republicservices.com
+  aliases:
+  - Republic Services
+- name: AutoNation Inc.
+  domains:
+  - autonation.com
+  aliases:
+  - AutoNation
+- name: Dominion Energy Inc.
+  domains:
+  - dominionenergy.com
+  aliases:
+  - Dominion Energy
+- name: Illinois Tool Works Inc.
+  domains:
+  - itw.com
+  aliases:
+  - ITW
+- name: United Rentals Inc.
+  domains:
+  - unitedrentals.com
+  aliases:
+  - United Rentals
+- name: J.B. Hunt Transport Services Inc.
+  domains:
+  - jbhunt.com
+  aliases:
+  - J.B. Hunt
+- name: Tenet Healthcare Corp.
+  domains:
+  - tenethealth.com
+  aliases:
+  - Tenet
+- name: C.H. Robinson Worldwide Inc.
+  domains:
+  - chrobinson.com
+  aliases:
+  - C.H. Robinson
+- name: Yum China Holdings Inc.
+  domains:
+  - yumchina.com
+  aliases:
+  - Yum China
+- name: Leidos Holdings Inc.
+  domains:
+  - leidos.com
+  aliases:
+  - Leidos
+- name: Whirlpool Corp.
+  domains:
+  - whirlpoolcorp.com
+  aliases:
+  - Whirlpool
+- name: L3Harris Technologies Inc.
+  domains:
+  - l3harris.com
+  aliases:
+  - L3Harris
+- name: Ross Stores Inc.
+  domains:
+  - rossstores.com
+  aliases:
+  - Ross
+- name: Cisco Systems
+  domains:
+  - cisco.com
+- name: Cognizant
+  domains:
+  - cognizant.com
+- name: Conagra Brands Inc.
+  domains:
+  - conagrabrands.com
+  aliases:
+  - Conagra
+- name: Gap Inc.
+  domains:
+  - gapinc.com
+  aliases:
+  - Gap
+- name: L Brands Inc.
+  domains:
+  - lb.com
+  aliases:
+  - Bath & Body Works
+  - Victoria's Secret
+- name: Halliburton Co.
+  domains:
+  - halliburton.com
+  aliases:
+  - Halliburton
+- name: Schlumberger Ltd.
+  domains:
+  - slb.com
+  aliases:
+  - SLB
+  - Schlumberger
+- name: Kinder Morgan Inc.
+  domains:
+  - kindermorgan.com
+  aliases:
+  - Kinder Morgan
+- name: Western Digital Corp.
+  domains:
+  - westerndigital.com
+  aliases:
+  - Western Digital
+- name: Advanced Micro Devices Inc.
+  domains:
+  - amd.com
+  aliases:
+  - AMD
+- name: Applied Materials Inc.
+  domains:
+  - appliedmaterials.com
+  aliases:
+  - Applied Materials
+- name: Lam Research Corp.
+  domains:
+  - lamresearch.com
+  aliases:
+  - Lam Research
+- name: KLA Corp.
+  domains:
+  - kla.com
+  aliases:
+  - KLA
+- name: Analog Devices Inc.
+  domains:
+  - analog.com
+  aliases:
+  - Analog Devices
+- name: Texas Instruments Inc.
+  domains:
+  - ti.com
+  aliases:
+  - TI
+  - Texas Instruments
+- name: Automatic Data Processing Inc.
+  domains:
+  - adp.com
+  aliases:
+  - ADP
+- name: Intuit Inc.
+  domains:
+  - intuit.com
+  aliases:
+  - Intuit
+- name: ServiceNow Inc.
+  domains:
+  - servicenow.com
+  aliases:
+  - ServiceNow
+- name: Workday Inc.
+  domains:
+  - workday.com
+  aliases:
+  - Workday
+- name: Adobe Inc.
+  domains:
+  - adobe.com
+  aliases:
+  - Adobe
+- name: Autodesk Inc.
+  domains:
+  - autodesk.com
+  aliases:
+  - Autodesk
+- name: Intuitive Surgical Inc.
+  domains:
+  - intuitive.com
+  aliases:
+  - Intuitive Surgical
+- name: Stryker Corp.
+  domains:
+  - stryker.com
+  aliases:
+  - Stryker
+- name: Medtronic PLC
+  domains:
+  - medtronic.com
+  aliases:
+  - Medtronic
+- name: Boston Scientific Corp.
+  domains:
+  - bostonscientific.com
+  aliases:
+  - Boston Scientific
+- name: Zimmer Biomet Holdings Inc.
+  domains:
+  - zimmerbiomet.com
+  aliases:
+  - Zimmer Biomet
+- name: Edwards Lifesciences Corp.
+  domains:
+  - edwards.com
+  aliases:
+  - Edwards Lifesciences
+- name: Regeneron Pharmaceuticals Inc.
+  domains:
+  - regeneron.com
+  aliases:
+  - Regeneron
+- name: Vertex Pharmaceuticals Inc.
+  domains:
+  - vrtx.com
+  aliases:
+  - Vertex
+- name: Moderna Inc.
+  domains:
+  - modernatx.com
+  aliases:
+  - Moderna
+- name: Biogen Inc.
+  domains:
+  - biogen.com
+  aliases:
+  - Biogen
+- name: Illumina Inc.
+  domains:
+  - illumina.com
+  aliases:
+  - Illumina
+- name: Charles Schwab Corp.
+  domains:
+  - schwab.com
+  aliases:
+  - Charles Schwab
+  - Schwab
+- name: BlackRock Inc.
+  domains:
+  - blackrock.com
+  aliases:
+  - BlackRock
+- name: Blackstone Inc.
+  domains:
+  - blackstone.com
+  aliases:
+  - Blackstone
+- name: KKR & Co. Inc.
+  domains:
+  - kkr.com
+  aliases:
+  - KKR
+- name: Apollo Global Management Inc.
+  domains:
+  - apollo.com
+  aliases:
+  - Apollo Global
+- name: Citizens Financial Group Inc.
+  domains:
+  - citizensbank.com
+  aliases:
+  - Citizens Bank
+- name: Fifth Third Bancorp
+  domains:
+  - 53.com
+  aliases:
+  - Fifth Third
+- name: KeyCorp
+  domains:
+  - key.com
+  aliases:
+  - KeyBank
+- name: Regions Financial Corp.
+  domains:
+  - regions.com
+  aliases:
+  - Regions Bank
+- name: M&T Bank Corp.
+  domains:
+  - mtb.com
+  aliases:
+  - M&T Bank
+- name: Huntington Bancshares Inc.
+  domains:
+  - huntington.com
+  aliases:
+  - Huntington Bank
+- name: PNC Financial Services Group Inc.
+  domains:
+  - pnc.com
+  aliases:
+  - PNC
+- name: Synchrony Financial
+  domains:
+  - synchrony.com
+  aliases:
+  - Synchrony
+- name: Discover Financial Services
+  domains:
+  - discover.com
+  aliases:
+  - Discover
+- name: Visa Inc.
+  domains:
+  - visa.com
+  aliases:
+  - Visa
+- name: Block Inc.
+  domains:
+  - block.xyz
+  - squareup.com
+  aliases:
+  - Block
+  - Square
+- name: Coinbase Global Inc.
+  domains:
+  - coinbase.com
+  aliases:
+  - Coinbase
+- name: Uber Technologies Inc.
+  domains:
+  - uber.com
+  aliases:
+  - Uber
+- name: Lyft Inc.
+  domains:
+  - lyft.com
+  aliases:
+  - Lyft
+- name: Airbnb Inc.
+  domains:
+  - airbnb.com
+  aliases:
+  - Airbnb
+- name: DoorDash Inc.
+  domains:
+  - doordash.com
+  aliases:
+  - DoorDash
+- name: Booking Holdings Inc.
+  domains:
+  - booking.com
+  - bookingholdings.com
+  aliases:
+  - Booking.com
+- name: Expedia Group Inc.
+  domains:
+  - expediagroup.com
+  aliases:
+  - Expedia
+- name: Southwest Airlines Co.
+  domains:
+  - southwest.com
+  aliases:
+  - Southwest Airlines
+- name: JetBlue Airways Corp.
+  domains:
+  - jetblue.com
+  aliases:
+  - JetBlue
+- name: Norfolk Southern Corp.
+  domains:
+  - nscorp.com
+  aliases:
+  - Norfolk Southern
+- name: Union Pacific Corp.
+  domains:
+  - up.com
+  aliases:
+  - Union Pacific
+- name: CSX Corp.
+  domains:
+  - csx.com
+  aliases:
+  - CSX
+- name: Waste Management Inc.
+  domains:
+  - wm.com
+  aliases:
+  - Waste Management
+- name: Waste Connections Inc.
+  domains:
+  - wasteconnections.com
+  aliases:
+  - Waste Connections
+- name: American Electric Power Co. Inc.
+  domains:
+  - aep.com
+  aliases:
+  - AEP
+- name: Consolidated Edison Inc.
+  domains:
+  - coned.com
+  aliases:
+  - Con Edison
+- name: Sempra
+  domains:
+  - sempra.com
+  aliases:
+  - Sempra
+- name: Edison International
+  domains:
+  - edison.com
+  aliases:
+  - Edison International
+- name: FirstEnergy Corp.
+  domains:
+  - firstenergycorp.com
+  aliases:
+  - FirstEnergy
+- name: Entergy Corp.
+  domains:
+  - entergy.com
+  aliases:
+  - Entergy
+- name: WEC Energy Group Inc.
+  domains:
+  - wecenergygroup.com
+  aliases:
+  - WEC Energy
+- name: Public Service Enterprise Group Inc.
+  domains:
+  - pseg.com
+  aliases:
+  - PSEG
+- name: DTE Energy Co.
+  domains:
+  - dteenergy.com
+  aliases:
+  - DTE Energy
+- name: CenterPoint Energy Inc.
+  domains:
+  - centerpointenergy.com
+  aliases:
+  - CenterPoint
+- name: ONEOK Inc.
+  domains:
+  - oneok.com
+  aliases:
+  - ONEOK
+- name: Williams Cos. Inc.
+  domains:
+  - williams.com
+  aliases:
+  - Williams Companies
+- name: Devon Energy Corp.
+  domains:
+  - devonenergy.com
+  aliases:
+  - Devon Energy
+- name: Diamondback Energy Inc.
+  domains:
+  - diamondbackenergy.com
+  aliases:
+  - Diamondback Energy
+- name: Hess Corp.
+  domains:
+  - hess.com
+  aliases:
+  - Hess
+- name: APA Corp.
+  domains:
+  - apacorp.com
+  aliases:
+  - APA Corporation
+- name: Baker Hughes Co.
+  domains:
+  - bakerhughes.com
+  aliases:
+  - Baker Hughes
+- name: Altria Group Inc.
+  domains:
+  - altria.com
+  aliases:
+  - Altria
+- name: Anheuser-Busch InBev SA/NV
+  domains:
+  - anheuser-busch.com
+  aliases:
+  - AB InBev
+  - Anheuser-Busch
+- name: AutoZone Inc.
+  domains:
+  - autozone.com
+  aliases:
+  - AutoZone
+- name: Baxter International Inc.
+  domains:
+  - baxter.com
+  aliases:
+  - Baxter
+- name: Becton Dickinson and Co.
+  domains:
+  - bd.com
+  aliases:
+  - BD
+  - Becton Dickinson
+- name: BorgWarner Inc.
+  domains:
+  - borgwarner.com
+  aliases:
+  - BorgWarner
+- name: Campbell Soup Co.
+  domains:
+  - campbellsoupcompany.com
+  aliases:
+  - Campbell's
+- name: Carnival Corp.
+  domains:
+  - carnivalcorp.com
+  aliases:
+  - Carnival
+- name: Celanese Corp.
+  domains:
+  - celanese.com
+  aliases:
+  - Celanese
+- name: CenturyLink / Lumen Technologies
+  domains:
+  - lumen.com
+  aliases:
+  - CenturyLink
+  - Lumen
+- name: Chipotle Mexican Grill Inc.
+  domains:
+  - chipotle.com
+  aliases:
+  - Chipotle
+- name: Church & Dwight Co. Inc.
+  domains:
+  - churchdwight.com
+  aliases:
+  - Church & Dwight
+- name: Cintas Corp.
+  domains:
+  - cintas.com
+  aliases:
+  - Cintas
+- name: Clorox Co.
+  domains:
+  - thecloroxcompany.com
+  aliases:
+  - Clorox
+- name: CMS Energy Corp.
+  domains:
+  - cmsenergy.com
+  aliases:
+  - CMS Energy
+- name: Concentrix Corp.
+  domains:
+  - concentrix.com
+  aliases:
+  - Concentrix
+- name: Consolidated Edison
+  domains:
+  - coned.com
+- name: Constellation Brands Inc.
+  domains:
+  - cbrands.com
+  aliases:
+  - Constellation Brands
+- name: Constellation Energy Corp.
+  domains:
+  - constellationenergy.com
+  aliases:
+  - Constellation Energy
+- name: Cooper Companies Inc.
+  domains:
+  - coopercos.com
+  aliases:
+  - Cooper Companies
+- name: Copart Inc.
+  domains:
+  - copart.com
+  aliases:
+  - Copart
+- name: Corning Inc.
+  domains:
+  - corning.com
+  aliases:
+  - Corning
+- name: Corteva Inc.
+  domains:
+  - corteva.com
+  aliases:
+  - Corteva
+- name: Coty Inc.
+  domains:
+  - coty.com
+  aliases:
+  - Coty
+- name: Crown Holdings Inc.
+  domains:
+  - crowncork.com
+  aliases:
+  - Crown Holdings
+- name: CSX
+  domains:
+  - csx.com
+- name: DaVita Inc.
+  domains:
+  - davita.com
+  aliases:
+  - DaVita
+- name: Darden Restaurants Inc.
+  domains:
+  - darden.com
+  aliases:
+  - Darden
+  - Olive Garden
+- name: DCP Midstream LP
+  domains:
+  - dcpmidstream.com
+  aliases:
+  - DCP Midstream
+- name: Delek US Holdings Inc.
+  domains:
+  - delekus.com
+  aliases:
+  - Delek
+- name: Dentsply Sirona Inc.
+  domains:
+  - dentsplysirona.com
+  aliases:
+  - Dentsply Sirona
+- name: Dick's Sporting Goods Inc.
+  domains:
+  - dickssportinggoods.com
+  aliases:
+  - Dick's Sporting Goods
+- name: Discover
+  domains:
+  - discover.com
+- name: Dish Network Corp.
+  domains:
+  - dish.com
+  aliases:
+  - DISH
+- name: Dover Corp.
+  domains:
+  - dovercorporation.com
+  aliases:
+  - Dover
+- name: DTE Energy
+  domains:
+  - dteenergy.com
+- name: DuPont de Nemours Inc.
+  domains:
+  - dupont.com
+  aliases:
+  - DuPont
+- name: Eastman Chemical Co.
+  domains:
+  - eastman.com
+  aliases:
+  - Eastman
+- name: Eaton Corp. PLC
+  domains:
+  - eaton.com
+  aliases:
+  - Eaton
+- name: eBay Inc.
+  domains:
+  - ebay.com
+  aliases:
+  - eBay
+- name: Electronic Arts Inc.
+  domains:
+  - ea.com
+  aliases:
+  - EA
+  - Electronic Arts
+- name: Entergy
+  domains:
+  - entergy.com
+- name: Equinix Inc.
+  domains:
+  - equinix.com
+  aliases:
+  - Equinix
+- name: Equitable Holdings Inc.
+  domains:
+  - equitableholdings.com
+  aliases:
+  - Equitable
+- name: Erie Insurance Group
+  domains:
+  - erieinsurance.com
+  aliases:
+  - Erie Insurance
+- name: Estee Lauder Cos. Inc.
+  domains:
+  - elcompanies.com
+  aliases:
+  - Estee Lauder
+- name: Expeditors International
+  domains:
+  - expeditors.com
+  aliases:
+  - Expeditors
+- name: Expedia
+  domains:
+  - expediagroup.com
+- name: ExxonMobil
+  domains:
+  - exxonmobil.com
+- name: Fastenal Co.
+  domains:
+  - fastenal.com
+  aliases:
+  - Fastenal
+- name: Fidelity National Financial Inc.
+  domains:
+  - fnf.com
+  aliases:
+  - Fidelity National Financial
+- name: Fidelity National Information Services Inc.
+  domains:
+  - fisglobal.com
+  aliases:
+  - FIS
+- name: First American Financial Corp.
+  domains:
+  - firstam.com
+  aliases:
+  - First American
+- name: FirstEnergy
+  domains:
+  - firstenergycorp.com
+- name: Fiserv Inc.
+  domains:
+  - fiserv.com
+  aliases:
+  - Fiserv
+- name: FleetCor Technologies Inc.
+  domains:
+  - fleetcor.com
+  aliases:
+  - FleetCor
+- name: Fluor Corp.
+  domains:
+  - fluor.com
+  aliases:
+  - Fluor
+- name: Foot Locker Inc.
+  domains:
+  - footlocker.com
+  aliases:
+  - Foot Locker
+- name: Fortinet Inc.
+  domains:
+  - fortinet.com
+  aliases:
+  - Fortinet
+- name: Fortive Corp.
+  domains:
+  - fortive.com
+  aliases:
+  - Fortive
+- name: Fox Corp.
+  domains:
+  - foxcorporation.com
+  aliases:
+  - Fox
+- name: Franklin Resources Inc.
+  domains:
+  - franklinresources.com
+  aliases:
+  - Franklin Templeton
+- name: GameStop Corp.
+  domains:
+  - gamestop.com
+  aliases:
+  - GameStop
+- name: Gap
+  domains:
+  - gapinc.com
+- name: General Mills Inc.
+  domains:
+  - generalmills.com
+  aliases:
+  - General Mills
+- name: Genworth Financial Inc.
+  domains:
+  - genworth.com
+  aliases:
+  - Genworth
+- name: Gilead
+  domains:
+  - gilead.com
+- name: Global Partners LP
+  domains:
+  - globalp.com
+  aliases:
+  - Global Partners
+- name: Global Payments Inc.
+  domains:
+  - globalpayments.com
+  aliases:
+  - Global Payments
+- name: Goldman Sachs
+  domains:
+  - goldmansachs.com
+- name: Grainger Inc.
+  domains:
+  - grainger.com
+  aliases:
+  - Grainger
+  - W.W. Grainger
+- name: Group 1 Automotive Inc.
+  domains:
+  - group1auto.com
+  aliases:
+  - Group 1 Automotive
+- name: Guardian Life Insurance Co.
+  domains:
+  - guardianlife.com
+  aliases:
+  - Guardian Life
+- name: Hanesbrands Inc.
+  domains:
+  - hanes.com
+  aliases:
+  - Hanesbrands
+- name: Hartford Financial Services Group Inc.
+  domains:
+  - thehartford.com
+  aliases:
+  - Hartford
+- name: Hasbro Inc.
+  domains:
+  - hasbro.com
+  aliases:
+  - Hasbro
+- name: HCA
+  domains:
+  - hcahealthcare.com
+- name: Hershey Co.
+  domains:
+  - thehersheycompany.com
+  aliases:
+  - Hershey
+- name: Hess
+  domains:
+  - hess.com
+- name: Hilton Worldwide Holdings Inc.
+  domains:
+  - hilton.com
+  aliases:
+  - Hilton
+- name: Hologic Inc.
+  domains:
+  - hologic.com
+  aliases:
+  - Hologic
+- name: Hormel Foods Corp.
+  domains:
+  - hormelfoods.com
+  aliases:
+  - Hormel
+- name: Host Hotels & Resorts Inc.
+  domains:
+  - hosthotels.com
+  aliases:
+  - Host Hotels
+- name: Howmet Aerospace Inc.
+  domains:
+  - howmet.com
+  aliases:
+  - Howmet
+- name: Hubbell Inc.
+  domains:
+  - hubbell.com
+  aliases:
+  - Hubbell
+- name: Humana
+  domains:
+  - humana.com
+- name: Huntington Ingalls Industries Inc.
+  domains:
+  - hii.com
+  aliases:
+  - Huntington Ingalls
+- name: Hyatt Hotels Corp.
+  domains:
+  - hyatt.com
+  aliases:
+  - Hyatt
+- name: IDEX Corp.
+  domains:
+  - idexcorp.com
+  aliases:
+  - IDEX
+- name: Illinois Tool Works
+  domains:
+  - itw.com
+- name: Ingredion Inc.
+  domains:
+  - ingredion.com
+  aliases:
+  - Ingredion
+- name: International Paper Co.
+  domains:
+  - internationalpaper.com
+  aliases:
+  - International Paper
+- name: Interpublic Group of Cos. Inc.
+  domains:
+  - interpublic.com
+  aliases:
+  - IPG
+- name: IQVIA Holdings Inc.
+  domains:
+  - iqvia.com
+  aliases:
+  - IQVIA
+- name: Jacobs Solutions Inc.
+  domains:
+  - jacobs.com
+  aliases:
+  - Jacobs
+- name: J.M. Smucker Co.
+  domains:
+  - jmsmucker.com
+  aliases:
+  - Smucker's
+- name: Jones Lang LaSalle Inc.
+  domains:
+  - jll.com
+  aliases:
+  - JLL
+- name: Kellanova
+  domains:
+  - kellanova.com
+  aliases:
+  - Kellanova
+  - Kellogg
+- name: Keurig Dr Pepper Inc.
+  domains:
+  - keurigdrpepper.com
+  aliases:
+  - Keurig Dr Pepper
+- name: Kimberly-Clark Corp.
+  domains:
+  - kimberly-clark.com
+  aliases:
+  - Kimberly-Clark
+- name: Kinder Morgan
+  domains:
+  - kindermorgan.com
+- name: Kirby Corp.
+  domains:
+  - kirbycorp.com
+  aliases:
+  - Kirby
+- name: KLA
+  domains:
+  - kla.com
+- name: Kohl's
+  domains:
+  - kohls.com
+- name: Kraft Heinz
+  domains:
+  - kraftheinzcompany.com
+- name: Kroger
+  domains:
+  - kroger.com
+- name: Labcorp Holdings Inc.
+  domains:
+  - labcorp.com
+  aliases:
+  - Labcorp
+- name: Lam Research
+  domains:
+  - lamresearch.com
+- name: Las Vegas Sands Corp.
+  domains:
+  - sands.com
+  aliases:
+  - Las Vegas Sands
+- name: Levi Strauss & Co.
+  domains:
+  - levistrauss.com
+  aliases:
+  - Levi's
+- name: Lincoln National Corp.
+  domains:
+  - lincolnfinancial.com
+  aliases:
+  - Lincoln Financial
+- name: Live Nation Entertainment Inc.
+  domains:
+  - livenationentertainment.com
+  aliases:
+  - Live Nation
+- name: LKQ Corp.
+  domains:
+  - lkqcorp.com
+  aliases:
+  - LKQ
+- name: Loews Corp.
+  domains:
+  - loews.com
+  aliases:
+  - Loews
+- name: Lululemon Athletica Inc.
+  domains:
+  - lululemon.com
+  aliases:
+  - Lululemon
+- name: LyondellBasell Industries NV
+  domains:
+  - lyondellbasell.com
+  aliases:
+  - LyondellBasell
+- name: M&T Bank
+  domains:
+  - mtb.com
+- name: Marathon Oil Corp.
+  domains:
+  - marathonoil.com
+  aliases:
+  - Marathon Oil
+- name: Markel Group Inc.
+  domains:
+  - mklgroup.com
+  aliases:
+  - Markel
+- name: Masco Corp.
+  domains:
+  - masco.com
+  aliases:
+  - Masco
+- name: McCormick & Co. Inc.
+  domains:
+  - mccormickcorporation.com
+  aliases:
+  - McCormick
+- name: McDonald's Corp.
+  domains:
+  - mcdonalds.com
+  aliases:
+  - McDonald's
+- name: McKesson
+  domains:
+  - mckesson.com
+- name: Meritage Homes Corp.
+  domains:
+  - meritagehomes.com
+  aliases:
+  - Meritage Homes
+- name: Mettler-Toledo International Inc.
+  domains:
+  - mt.com
+  aliases:
+  - Mettler Toledo
+- name: MGM Resorts International
+  domains:
+  - mgmresorts.com
+  aliases:
+  - MGM
+- name: Microchip Technology Inc.
+  domains:
+  - microchip.com
+  aliases:
+  - Microchip
+- name: Mohawk Industries Inc.
+  domains:
+  - mohawkind.com
+  aliases:
+  - Mohawk
+- name: Moody's Corp.
+  domains:
+  - moodys.com
+  aliases:
+  - Moody's
+- name: Motorola Solutions Inc.
+  domains:
+  - motorolasolutions.com
+  aliases:
+  - Motorola Solutions
+- name: Murphy USA Inc.
+  domains:
+  - murphyusa.com
+  aliases:
+  - Murphy USA
+- name: Mutual of Omaha Insurance Co.
+  domains:
+  - mutualofomaha.com
+  aliases:
+  - Mutual of Omaha
+- name: Nasdaq Inc.
+  domains:
+  - nasdaq.com
+  aliases:
+  - Nasdaq
+- name: National Oilwell Varco Inc.
+  domains:
+  - nov.com
+  aliases:
+  - NOV
+- name: Navistar International Corp.
+  domains:
+  - navistar.com
+  aliases:
+  - Navistar
+- name: NetApp Inc.
+  domains:
+  - netapp.com
+  aliases:
+  - NetApp
+- name: Newell Brands Inc.
+  domains:
+  - newellbrands.com
+  aliases:
+  - Newell
+- name: News Corp.
+  domains:
+  - newscorp.com
+  aliases:
+  - News Corp
+- name: NGL Energy Partners LP
+  domains:
+  - nglenergypartners.com
+  aliases:
+  - NGL Energy
+- name: Nike
+  domains:
+  - nike.com
+- name: NiSource Inc.
+  domains:
+  - nisource.com
+  aliases:
+  - NiSource
+- name: Nokia Corp.
+  domains:
+  - nokia.com
+  aliases:
+  - Nokia
+- name: Norfolk Southern
+  domains:
+  - nscorp.com
+- name: Northern Trust Corp.
+  domains:
+  - northerntrust.com
+  aliases:
+  - Northern Trust
+- name: Northrop Grumman
+  domains:
+  - northropgrumman.com
+- name: Northwestern Mutual Life Insurance Co.
+  domains:
+  - northwesternmutual.com
+  aliases:
+  - Northwestern Mutual
+- name: NOV Inc.
+  domains:
+  - nov.com
+  aliases:
+  - NOV
+- name: NRG Energy
+  domains:
+  - nrg.com
+- name: Nucor
+  domains:
+  - nucor.com
+- name: NVR Inc.
+  domains:
+  - nvrinc.com
+  aliases:
+  - NVR
+- name: O'Reilly Automotive Inc.
+  domains:
+  - oreillyauto.com
+  aliases:
+  - O'Reilly Auto
+- name: Old Dominion Freight Line Inc.
+  domains:
+  - odfl.com
+  aliases:
+  - Old Dominion
+- name: Olin Corp.
+  domains:
+  - olin.com
+  aliases:
+  - Olin
+- name: Omnicom Group Inc.
+  domains:
+  - omnicomgroup.com
+  aliases:
+  - Omnicom
+- name: ON Semiconductor Corp.
+  domains:
+  - onsemi.com
+  aliases:
+  - onsemi
+- name: OneMain Holdings Inc.
+  domains:
+  - onemainfinancial.com
+  aliases:
+  - OneMain
+- name: Oracle
+  domains:
+  - oracle.com
+- name: Oshkosh Corp.
+  domains:
+  - oshkoshcorp.com
+  aliases:
+  - Oshkosh
+- name: Otis Worldwide Corp.
+  domains:
+  - otis.com
+  aliases:
+  - Otis
+- name: Owens Corning
+  domains:
+  - owenscorning.com
+  aliases:
+  - Owens Corning
+- name: Paccar
+  domains:
+  - paccar.com
+- name: Packaging Corp. of America
+  domains:
+  - packagingcorp.com
+  aliases:
+  - PCA
+- name: Palo Alto Networks Inc.
+  domains:
+  - paloaltonetworks.com
+  aliases:
+  - Palo Alto Networks
+- name: Paramount Global
+  domains:
+  - paramount.com
+  aliases:
+  - CBS
+  - Paramount
+- name: Parker Hannifin
+  domains:
+  - parker.com
+- name: Paychex Inc.
+  domains:
+  - paychex.com
+  aliases:
+  - Paychex
+- name: Penske Automotive
+  domains:
+  - penskeautomotive.com
+- name: PepsiCo
+  domains:
+  - pepsico.com
+- name: Performance Food Group
+  domains:
+  - pfgc.com
+- name: Pfizer
+  domains:
+  - pfizer.com
+- name: Philip Morris
+  domains:
+  - pmi.com
+- name: Pinnacle West Capital Corp.
+  domains:
+  - pinnaclewest.com
+  aliases:
+  - Pinnacle West
+- name: Pioneer Natural Resources
+  domains:
+  - pxd.com
+- name: Pitney Bowes Inc.
+  domains:
+  - pitneybowes.com
+  aliases:
+  - Pitney Bowes
+- name: Plains All American
+  domains:
+  - plains.com
+- name: Polaris Inc.
+  domains:
+  - polaris.com
+  aliases:
+  - Polaris
+- name: Pool Corp.
+  domains:
+  - poolcorp.com
+  aliases:
+  - Pool Corporation
+- name: Principal Financial Group Inc.
+  domains:
+  - principal.com
+  aliases:
+  - Principal Financial
+- name: Prologis Inc.
+  domains:
+  - prologis.com
+  aliases:
+  - Prologis
+- name: Prudential
+  domains:
+  - prudential.com
+- name: Public Storage
+  domains:
+  - publicstorage.com
+  aliases:
+  - Public Storage
+- name: PulteGroup Inc.
+  domains:
+  - pultegroup.com
+  aliases:
+  - PulteGroup
+- name: PVH Corp.
+  domains:
+  - pvh.com
+  aliases:
+  - Calvin Klein
+  - PVH
+  - Tommy Hilfiger
+- name: Qorvo Inc.
+  domains:
+  - qorvo.com
+  aliases:
+  - Qorvo
+- name: Quanta Services Inc.
+  domains:
+  - quantaservices.com
+  aliases:
+  - Quanta Services
+- name: Quest Diagnostics Inc.
+  domains:
+  - questdiagnostics.com
+  aliases:
+  - Quest Diagnostics
+- name: Ralph Lauren Corp.
+  domains:
+  - ralphlauren.com
+  aliases:
+  - Ralph Lauren
+- name: Raymond James
+  domains:
+  - raymondjames.com
+- name: Realty Income Corp.
+  domains:
+  - realtyincome.com
+  aliases:
+  - Realty Income
+- name: Regal Rexnord Corp.
+  domains:
+  - regalrexnord.com
+  aliases:
+  - Regal Rexnord
+- name: Regency Centers Corp.
+  domains:
+  - regencycenters.com
+  aliases:
+  - Regency Centers
+- name: Reinsurance Group of America Inc.
+  domains:
+  - rgare.com
+  aliases:
+  - RGA
+- name: Reliance Steel & Aluminum Co.
+  domains:
+  - rsac.com
+  aliases:
+  - Reliance Steel
+- name: Republic Services
+  domains:
+  - republicservices.com
+- name: Resideo Technologies Inc.
+  domains:
+  - resideo.com
+  aliases:
+  - Resideo
+- name: Reynolds American Inc.
+  domains:
+  - reynoldsamerican.com
+  aliases:
+  - Reynolds American
+- name: Robert Half Inc.
+  domains:
+  - roberthalf.com
+  aliases:
+  - Robert Half
+- name: Rockwell Automation Inc.
+  domains:
+  - rockwellautomation.com
+  aliases:
+  - Rockwell Automation
+- name: Rollins Inc.
+  domains:
+  - rollins.com
+  aliases:
+  - Orkin
+  - Rollins
+- name: Roper Technologies Inc.
+  domains:
+  - ropertech.com
+  aliases:
+  - Roper
+- name: Royal Caribbean Group
+  domains:
+  - royalcaribbeangroup.com
+  aliases:
+  - Royal Caribbean
+- name: RPM International Inc.
+  domains:
+  - rpminc.com
+  aliases:
+  - RPM International
+- name: Ryder System Inc.
+  domains:
+  - ryder.com
+  aliases:
+  - Ryder
+- name: S&P Global
+  domains:
+  - spglobal.com
+- name: Salesforce
+  domains:
+  - salesforce.com
+- name: Sanmina Corp.
+  domains:
+  - sanmina.com
+  aliases:
+  - Sanmina
+- name: Seaboard Corp.
+  domains:
+  - seaboardcorp.com
+  aliases:
+  - Seaboard
+- name: Sealed Air Corp.
+  domains:
+  - sealedair.com
+  aliases:
+  - Sealed Air
+- name: Sherwin-Williams
+  domains:
+  - sherwin-williams.com
+- name: Simon Property Group Inc.
+  domains:
+  - simon.com
+  aliases:
+  - Simon Property Group
+- name: Snap-on Inc.
+  domains:
+  - snapon.com
+  aliases:
+  - Snap-on
+- name: SolarWinds Corp.
+  domains:
+  - solarwinds.com
+  aliases:
+  - SolarWinds
+- name: Sonoco Products Co.
+  domains:
+  - sonoco.com
+  aliases:
+  - Sonoco
+- name: Southern
+  domains:
+  - southerncompany.com
+- name: Southwest Airlines
+  domains:
+  - southwest.com
+- name: SpartanNash Co.
+  domains:
+  - spartannash.com
+  aliases:
+  - SpartanNash
+- name: Stanley Black & Decker Inc.
+  domains:
+  - stanleyblackanddecker.com
+  aliases:
+  - Stanley Black & Decker
+- name: State Street Corp.
+  domains:
+  - statestreet.com
+  aliases:
+  - State Street
+- name: Steel Dynamics Inc.
+  domains:
+  - steeldynamics.com
+  aliases:
+  - Steel Dynamics
+- name: STERIS PLC
+  domains:
+  - steris.com
+  aliases:
+  - STERIS
+- name: Stifel Financial Corp.
+  domains:
+  - stifel.com
+  aliases:
+  - Stifel
+- name: Subaru of America Inc.
+  domains:
+  - subaru.com
+  aliases:
+  - Subaru
+- name: Sun Communities Inc.
+  domains:
+  - suncommunities.com
+  aliases:
+  - Sun Communities
+- name: Sunoco LP
+  domains:
+  - sunocolp.com
+  aliases:
+  - Sunoco
+- name: Super Micro Computer Inc.
+  domains:
+  - supermicro.com
+  aliases:
+  - Supermicro
+- name: Synchrony
+  domains:
+  - synchrony.com
+- name: Sysco
+  domains:
+  - sysco.com
+- name: Targa Resources Corp.
+  domains:
+  - targaresources.com
+  aliases:
+  - Targa Resources
+- name: Target
+  domains:
+  - target.com
+- name: TE Connectivity Ltd.
+  domains:
+  - te.com
+  aliases:
+  - TE Connectivity
+- name: Tech Data
+  domains:
+  - tdsynnex.com
+  aliases:
+  - Tech Data
+- name: Tenet Healthcare
+  domains:
+  - tenethealth.com
+- name: Teradyne Inc.
+  domains:
+  - teradyne.com
+  aliases:
+  - Teradyne
+- name: Tesla
+  domains:
+  - tesla.com
+- name: Texas Instruments
+  domains:
+  - ti.com
+- name: Textron Inc.
+  domains:
+  - textron.com
+  aliases:
+  - Textron
+- name: Thermo Fisher
+  domains:
+  - thermofisher.com
+- name: Thor Industries Inc.
+  domains:
+  - thorindustries.com
+  aliases:
+  - Thor Industries
+- name: TJX
+  domains:
+  - tjx.com
+- name: Toll Brothers Inc.
+  domains:
+  - tollbrothers.com
+  aliases:
+  - Toll Brothers
+- name: Tractor Supply Co.
+  domains:
+  - tractorsupply.com
+  aliases:
+  - Tractor Supply
+- name: TransDigm Group Inc.
+  domains:
+  - transdigm.com
+  aliases:
+  - TransDigm
+- name: Travelers
+  domains:
+  - travelers.com
+- name: Truist
+  domains:
+  - truist.com
+- name: Tyson Foods
+  domains:
+  - tysonfoods.com
+- name: Uber
+  domains:
+  - uber.com
+- name: Ulta Beauty Inc.
+  domains:
+  - ulta.com
+  aliases:
+  - Ulta
+- name: Under Armour Inc.
+  domains:
+  - underarmour.com
+  aliases:
+  - Under Armour
+- name: Union Pacific
+  domains:
+  - up.com
+- name: United Airlines
+  domains:
+  - united.com
+- name: United Rentals
+  domains:
+  - unitedrentals.com
+- name: UnitedHealth
+  domains:
+  - unitedhealthgroup.com
+- name: United Parcel Service
+  domains:
+  - ups.com
+- name: Universal Health Services Inc.
+  domains:
+  - uhsinc.com
+  aliases:
+  - UHS
+- name: Unum Group
+  domains:
+  - unum.com
+  aliases:
+  - Unum
+- name: US Foods
+  domains:
+  - usfoods.com
+- name: Valero
+  domains:
+  - valero.com
+- name: Ventas Inc.
+  domains:
+  - ventasreit.com
+  aliases:
+  - Ventas
+- name: Verisk Analytics Inc.
+  domains:
+  - verisk.com
+  aliases:
+  - Verisk
+- name: Verizon
+  domains:
+  - verizon.com
+- name: VF Corp.
+  domains:
+  - vfc.com
+  aliases:
+  - North Face
+  - VF Corporation
+  - Vans
+- name: Viatris
+  domains:
+  - viatris.com
+- name: Visa
+  domains:
+  - visa.com
+- name: Vistra Corp.
+  domains:
+  - vistracorp.com
+  aliases:
+  - Vistra
+- name: Vulcan Materials Co.
+  domains:
+  - vulcanmaterials.com
+  aliases:
+  - Vulcan Materials
+- name: W.W. Grainger
+  domains:
+  - grainger.com
+- name: Walgreens
+  domains:
+  - walgreens.com
+- name: Walmart
+  domains:
+  - walmart.com
+- name: Walt Disney
+  domains:
+  - disney.com
+- name: Warner Bros Discovery
+  domains:
+  - wbd.com
+- name: Waste Management
+  domains:
+  - wm.com
+- name: WEC Energy
+  domains:
+  - wecenergygroup.com
+- name: Wells Fargo
+  domains:
+  - wellsfargo.com
+- name: WESCO International Inc.
+  domains:
+  - wesco.com
+  aliases:
+  - WESCO
+- name: Westlake Corp.
+  domains:
+  - westlake.com
+  aliases:
+  - Westlake
+- name: WestRock Co.
+  domains:
+  - westrock.com
+  aliases:
+  - WestRock
+- name: Weyerhaeuser Co.
+  domains:
+  - weyerhaeuser.com
+  aliases:
+  - Weyerhaeuser
+- name: Williams Companies
+  domains:
+  - williams.com
+- name: Willis Towers Watson PLC
+  domains:
+  - wtwco.com
+  aliases:
+  - WTW
+  - Willis Towers Watson
+- name: Workday
+  domains:
+  - workday.com
+- name: World Fuel Services Corp.
+  domains:
+  - wfscorp.com
+  aliases:
+  - World Fuel Services
+- name: Xcel Energy
+  domains:
+  - xcelenergy.com
+- name: Xerox Holdings Corp.
+  domains:
+  - xerox.com
+  aliases:
+  - Xerox
+- name: XPO Inc.
+  domains:
+  - xpo.com
+  aliases:
+  - XPO
+- name: Yum! Brands Inc.
+  domains:
+  - yum.com
+  aliases:
+  - KFC
+  - Pizza Hut
+  - Taco Bell
+  - Yum Brands
+- name: Zebra Technologies Corp.
+  domains:
+  - zebra.com
+  aliases:
+  - Zebra Technologies
+- name: Zions Bancorporation NA
+  domains:
+  - zionsbancorporation.com
+  aliases:
+  - Zions Bank
+- name: Zoetis Inc.
+  domains:
+  - zoetis.com
+  aliases:
+  - Zoetis
+- name: Cargill Inc.
+  domains:
+  - cargill.com
+  aliases:
+  - Cargill
+- name: Koch Industries Inc.
+  domains:
+  - kochind.com
+  aliases:
+  - Koch
+  - Koch Industries
+- name: Mars Inc.
+  domains:
+  - mars.com
+  aliases:
+  - Mars
+- name: H-E-B Grocery Co.
+  domains:
+  - heb.com
+  aliases:
+  - H-E-B
+- name: Reyes Holdings LLC
+  domains:
+  - reyesholdings.com
+  aliases:
+  - Reyes Holdings
+- name: Enterprise Holdings Inc.
+  domains:
+  - enterpriseholdings.com
+  aliases:
+  - Enterprise Rent-A-Car
+- name: Fidelity Investments
+  domains:
+  - fidelity.com
+  aliases:
+  - Fidelity
+- name: Cox Enterprises Inc.
+  domains:
+  - coxenterprises.com
+  aliases:
+  - Cox
+- name: Southern Glazer's Wine & Spirits
+  domains:
+  - southernglazers.com
+  aliases:
+  - Southern Glazer's
+- name: Deloitte LLP
+  domains:
+  - deloitte.com
+  aliases:
+  - Deloitte
+- name: PwC
+  domains:
+  - pwc.com
+  aliases:
+  - PricewaterhouseCoopers
+  - PwC
+- name: Ernst & Young LLP
+  domains:
+  - ey.com
+  aliases:
+  - EY
+  - Ernst & Young
+- name: KPMG LLP
+  domains:
+  - kpmg.com
+  aliases:
+  - KPMG
+- name: Accenture PLC
+  domains:
+  - accenture.com
+  aliases:
+  - Accenture
+- name: McKinsey & Company
+  domains:
+  - mckinsey.com
+  aliases:
+  - McKinsey
+- name: Boston Consulting Group
+  domains:
+  - bcg.com
+  aliases:
+  - BCG
+- name: Bain & Company
+  domains:
+  - bain.com
+  aliases:
+  - Bain
+notes: Expanded blocklist for production dataset collection. Match on name, aliases,
+  and domains. Includes major private companies and top consulting firms often equivalent
+  to F500 content.

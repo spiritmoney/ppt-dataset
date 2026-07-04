@@ -1,0 +1,11 @@
+aiohttp>=3.9
+PyYAML>=6.0
+typer>=0.12
+rich>=13.0
+pandas>=2.0
+openpyxl>=3.1
+python-dotenv>=1.0
+psycopg[binary]>=3.1
+
+# Dev
+pytest>=8.0

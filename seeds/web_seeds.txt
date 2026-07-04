@@ -1,0 +1,18 @@
+# HTML seed pages for live recursive crawl (finds embedded PPT/PPTX/PDF links).
+# One URL per line. These pages are crawled to discover presentation file links.
+
+https://www.nist.gov/publications
+https://www.cdc.gov/media/
+https://www.who.int/publications
+https://www.worldbank.org/en/publication
+https://www.oecd.org/publications/
+https://www.sba.gov/document/support
+https://www.fda.gov/media
+https://www.sec.gov/news
+https://www.epa.gov/newsroom
+https://www.data.gov/developers
+https://creativecommons.org/about/downloads/
+https://www.pmi.org/learning/library
+https://www.ama-assn.org/delivering-care/public-health
+https://www.unicef.org/reports
+https://www.redcross.org/about-us/news-and-events

@@ -1,0 +1,808 @@
+# Prestigious U.S. think tanks, research centers, and federally funded labs
+# Last updated: 2026-07-03
+
+version: '2026-07-03'
+match_mode: contains
+organizations:
+- name: Brookings Institution
+  domains:
+  - brookings.edu
+  aliases:
+  - Brookings
+- name: RAND Corporation
+  domains:
+  - rand.org
+  aliases:
+  - RAND
+- name: Council on Foreign Relations
+  domains:
+  - cfr.org
+  aliases:
+  - CFR
+- name: American Enterprise Institute
+  domains:
+  - aei.org
+  aliases:
+  - AEI
+- name: Heritage Foundation
+  domains:
+  - heritage.org
+  aliases:
+  - Heritage Foundation
+- name: Center for Strategic and International Studies
+  domains:
+  - csis.org
+  aliases:
+  - CSIS
+- name: Pew Research Center
+  domains:
+  - pewresearch.org
+  aliases:
+  - Pew Research
+- name: Urban Institute
+  domains:
+  - urban.org
+  aliases:
+  - Urban Institute
+- name: Carnegie Endowment for International Peace
+  domains:
+  - carnegieendowment.org
+  aliases:
+  - Carnegie Endowment
+- name: Wilson Center
+  domains:
+  - wilsoncenter.org
+  aliases:
+  - Wilson Center
+  - Woodrow Wilson Center
+- name: Hoover Institution
+  domains:
+  - hoover.org
+  aliases:
+  - Hoover Institution
+- name: Center for American Progress
+  domains:
+  - americanprogress.org
+  aliases:
+  - CAP
+- name: Peterson Institute for International Economics
+  domains:
+  - piie.com
+  aliases:
+  - PIIE
+  - Peterson Institute
+- name: Atlantic Council
+  domains:
+  - atlanticcouncil.org
+  aliases:
+  - Atlantic Council
+- name: Stimson Center
+  domains:
+  - stimson.org
+  aliases:
+  - Stimson Center
+- name: Center on Budget and Policy Priorities
+  domains:
+  - cbpp.org
+  aliases:
+  - CBPP
+- name: Manhattan Institute for Policy Research
+  domains:
+  - manhattan-institute.org
+  aliases:
+  - Manhattan Institute
+- name: Economic Policy Institute
+  domains:
+  - epi.org
+  aliases:
+  - EPI
+- name: Cato Institute
+  domains:
+  - cato.org
+  aliases:
+  - Cato Institute
+- name: Reason Foundation
+  domains:
+  - reason.org
+  aliases:
+  - Reason Foundation
+- name: Competitive Enterprise Institute
+  domains:
+  - cei.org
+  aliases:
+  - CEI
+- name: Heartland Institute
+  domains:
+  - heartland.org
+  aliases:
+  - Heartland Institute
+- name: American Legislative Exchange Council
+  domains:
+  - alec.org
+  aliases:
+  - ALEC
+- name: Bipartisan Policy Center
+  domains:
+  - bipartisanpolicy.org
+  aliases:
+  - BPC
+- name: Third Way
+  domains:
+  - thirdway.org
+  aliases:
+  - Third Way
+- name: New America
+  domains:
+  - newamerica.org
+  aliases:
+  - New America
+- name: Center for a New American Security
+  domains:
+  - cnas.org
+  aliases:
+  - CNAS
+- name: Center for Strategic and Budgetary Assessments
+  domains:
+  - csbaonline.org
+  aliases:
+  - CSBA
+- name: Foreign Policy Research Institute
+  domains:
+  - fpri.org
+  aliases:
+  - FPRI
+- name: Hudson Institute
+  domains:
+  - hudson.org
+  aliases:
+  - Hudson Institute
+- name: American Foreign Policy Council
+  domains:
+  - afpc.org
+  aliases:
+  - AFPC
+- name: Washington Institute for Near East Policy
+  domains:
+  - washingtoninstitute.org
+  aliases:
+  - Washington Institute
+- name: Middle East Institute
+  domains:
+  - mei.edu
+  aliases:
+  - MEI
+- name: Center for Global Development
+  domains:
+  - cgdev.org
+  aliases:
+  - CGD
+- name: Resources for the Future
+  domains:
+  - rff.org
+  aliases:
+  - RFF
+- name: Information Technology and Innovation Foundation
+  domains:
+  - itif.org
+  aliases:
+  - ITIF
+- name: Aspen Institute
+  domains:
+  - aspeninstitute.org
+  aliases:
+  - Aspen Institute
+- name: Baker Institute for Public Policy
+  domains:
+  - bakerinstitute.org
+  aliases:
+  - Baker Institute
+- name: Kissinger Institute on China
+  domains:
+  - wilsoncenter.org
+- name: National Bureau of Economic Research
+  domains:
+  - nber.org
+  aliases:
+  - NBER
+- name: Tax Policy Center
+  domains:
+  - taxpolicycenter.org
+  aliases:
+  - Tax Policy Center
+- name: Migration Policy Institute
+  domains:
+  - migrationpolicy.org
+  aliases:
+  - MPI
+- name: Center for Immigration Studies
+  domains:
+  - cis.org
+  aliases:
+  - CIS
+- name: Federation for American Immigration Reform
+  domains:
+  - fairus.org
+  aliases:
+  - FAIR
+- name: Institute for Defense Analyses
+  domains:
+  - ida.org
+  aliases:
+  - IDA
+- name: Institute for the Study of War
+  domains:
+  - understandingwar.org
+  aliases:
+  - ISW
+- name: Center for Naval Analyses
+  domains:
+  - cna.org
+  aliases:
+  - CNA
+- name: MITRE Corporation
+  domains:
+  - mitre.org
+  aliases:
+  - MITRE
+- name: Aerospace Corporation
+  domains:
+  - aerospace.org
+  aliases:
+  - Aerospace Corp
+- name: United States Institute of Peace
+  domains:
+  - usip.org
+  aliases:
+  - USIP
+- name: Center for Democracy and Technology
+  domains:
+  - cdt.org
+  aliases:
+  - CDT
+- name: Electronic Frontier Foundation
+  domains:
+  - eff.org
+  aliases:
+  - EFF
+- name: New America Foundation
+  domains:
+  - newamerica.org
+- name: Center for Economic and Policy Research
+  domains:
+  - cepr.net
+  aliases:
+  - CEPR
+- name: Institute for Policy Studies
+  domains:
+  - ips-dc.org
+  aliases:
+  - IPS
+- name: Center for National Interest
+  domains:
+  - cftni.org
+  aliases:
+  - Center for the National Interest
+- name: National Center for Policy Analysis
+  domains:
+  - ncpa.org
+  aliases:
+  - NCPA
+- name: Joint Center for Political and Economic Studies
+  domains:
+  - jointcenter.org
+  aliases:
+  - Joint Center
+- name: Public Policy Institute of California
+  domains:
+  - ppic.org
+  aliases:
+  - PPIC
+- name: Chicago Council on Global Affairs
+  domains:
+  - thechicagocouncil.org
+  aliases:
+  - Chicago Council
+- name: Hispanic American Center for Economic Research
+  domains:
+  - hacer.org
+  aliases:
+  - HACER
+- name: McCain Institute
+  domains:
+  - mccaininstitute.org
+  aliases:
+  - McCain Institute
+- name: Truman Center for National Policy
+  domains:
+  - trumancenter.org
+  aliases:
+  - Truman Center
+- name: German Marshall Fund of the United States
+  domains:
+  - gmfus.org
+  aliases:
+  - GMF
+- name: EastWest Institute
+  domains:
+  - ewi.info
+  aliases:
+  - EastWest Institute
+- name: Crisis Group
+  domains:
+  - crisisgroup.org
+  aliases:
+  - International Crisis Group
+- name: Freedom House
+  domains:
+  - freedomhouse.org
+  aliases:
+  - Freedom House
+- name: Human Rights Watch
+  domains:
+  - hrw.org
+  aliases:
+  - Human Rights Watch
+- name: Amnesty International USA
+  domains:
+  - amnestyusa.org
+  aliases:
+  - Amnesty International
+- name: World Resources Institute
+  domains:
+  - wri.org
+  aliases:
+  - WRI
+- name: World Wildlife Fund
+  domains:
+  - worldwildlife.org
+  aliases:
+  - WWF
+- name: Natural Resources Defense Council
+  domains:
+  - nrdc.org
+  aliases:
+  - NRDC
+- name: Environmental Defense Fund
+  domains:
+  - edf.org
+  aliases:
+  - EDF
+- name: Sierra Club
+  domains:
+  - sierraclub.org
+  aliases:
+  - Sierra Club
+- name: R Street Institute
+  domains:
+  - rstreet.org
+  aliases:
+  - R Street
+- name: Niskanen Center
+  domains:
+  - niskanencenter.org
+  aliases:
+  - Niskanen Center
+- name: Lexington Institute
+  domains:
+  - lexingtoninstitute.org
+  aliases:
+  - Lexington Institute
+- name: Center for Security Policy
+  domains:
+  - centerforsecuritypolicy.org
+- name: Foundation for Defense of Democracies
+  domains:
+  - fdd.org
+  aliases:
+  - FDD
+- name: Jamestown Foundation
+  domains:
+  - jamestown.org
+  aliases:
+  - Jamestown Foundation
+- name: Ames National Laboratory
+  domains:
+  - ameslab.gov
+  aliases:
+  - Ames Lab
+- name: Argonne National Laboratory
+  domains:
+  - anl.gov
+  aliases:
+  - Argonne
+- name: Brookhaven National Laboratory
+  domains:
+  - bnl.gov
+  aliases:
+  - Brookhaven
+- name: Fermi National Accelerator Laboratory
+  domains:
+  - fnal.gov
+  aliases:
+  - Fermilab
+- name: Lawrence Berkeley National Laboratory
+  domains:
+  - lbl.gov
+  aliases:
+  - Berkeley Lab
+  - LBNL
+- name: Lawrence Livermore National Laboratory
+  domains:
+  - llnl.gov
+  aliases:
+  - LLNL
+  - Livermore Lab
+- name: Los Alamos National Laboratory
+  domains:
+  - lanl.gov
+  aliases:
+  - LANL
+  - Los Alamos
+- name: Oak Ridge National Laboratory
+  domains:
+  - ornl.gov
+  aliases:
+  - ORNL
+  - Oak Ridge
+- name: Pacific Northwest National Laboratory
+  domains:
+  - pnnl.gov
+  aliases:
+  - PNNL
+- name: Princeton Plasma Physics Laboratory
+  domains:
+  - pppl.gov
+  aliases:
+  - PPPL
+- name: Sandia National Laboratories
+  domains:
+  - sandia.gov
+  aliases:
+  - Sandia
+- name: Savannah River National Laboratory
+  domains:
+  - srnl.doe.gov
+  aliases:
+  - SRNL
+- name: SLAC National Accelerator Laboratory
+  domains:
+  - slac.stanford.edu
+  aliases:
+  - SLAC
+- name: Thomas Jefferson National Accelerator Facility
+  domains:
+  - jlab.org
+  aliases:
+  - Jefferson Lab
+- name: Idaho National Laboratory
+  domains:
+  - inl.gov
+  aliases:
+  - INL
+- name: National Renewable Energy Laboratory
+  domains:
+  - nrel.gov
+  aliases:
+  - NREL
+- name: National Energy Technology Laboratory
+  domains:
+  - netl.doe.gov
+  aliases:
+  - NETL
+- name: Oak Ridge Associated Universities
+  domains:
+  - orau.org
+  aliases:
+  - ORAU
+- name: NASA
+  domains:
+  - nasa.gov
+  aliases:
+  - NASA
+- name: National Institutes of Health
+  domains:
+  - nih.gov
+  aliases:
+  - NIH
+- name: National Science Foundation
+  domains:
+  - nsf.gov
+  aliases:
+  - NSF
+- name: Centers for Disease Control and Prevention
+  domains:
+  - cdc.gov
+  aliases:
+  - CDC
+- name: Food and Drug Administration
+  domains:
+  - fda.gov
+  aliases:
+  - FDA
+- name: National Institute of Standards and Technology
+  domains:
+  - nist.gov
+  aliases:
+  - NIST
+- name: Defense Advanced Research Projects Agency
+  domains:
+  - darpa.mil
+  aliases:
+  - DARPA
+- name: MIT Lincoln Laboratory
+  domains:
+  - ll.mit.edu
+  aliases:
+  - Lincoln Lab
+  - Lincoln Laboratory
+- name: Johns Hopkins Applied Physics Laboratory
+  domains:
+  - jhuapl.edu
+  aliases:
+  - APL
+  - Applied Physics Laboratory
+- name: Frederick National Laboratory for Cancer Research
+  domains:
+  - frederick.cancer.gov
+  aliases:
+  - FNLCR
+- name: National Cancer Institute
+  domains:
+  - cancer.gov
+  aliases:
+  - NCI
+- name: National Human Genome Research Institute
+  domains:
+  - genome.gov
+  aliases:
+  - NHGRI
+- name: National Institute of Allergy and Infectious Diseases
+  domains:
+  - niaid.nih.gov
+  aliases:
+  - NIAID
+- name: National Oceanic and Atmospheric Administration
+  domains:
+  - noaa.gov
+  aliases:
+  - NOAA
+- name: National Center for Atmospheric Research
+  domains:
+  - ncar.ucar.edu
+  aliases:
+  - NCAR
+- name: Jet Propulsion Laboratory
+  domains:
+  - jpl.nasa.gov
+  aliases:
+  - JPL
+- name: Goddard Space Flight Center
+  domains:
+  - nasa.gov
+  aliases:
+  - Goddard
+- name: Langley Research Center
+  domains:
+  - nasa.gov
+  aliases:
+  - Langley
+- name: Ames Research Center
+  domains:
+  - nasa.gov
+  aliases:
+  - NASA Ames
+- name: Kennedy Space Center
+  domains:
+  - nasa.gov
+  aliases:
+  - Kennedy Space Center
+- name: Marshall Space Flight Center
+  domains:
+  - nasa.gov
+  aliases:
+  - Marshall Space Flight Center
+- name: Naval Research Laboratory
+  domains:
+  - nrl.navy.mil
+  aliases:
+  - NRL
+- name: Air Force Research Laboratory
+  domains:
+  - afresearchlab.com
+  aliases:
+  - AFRL
+- name: Army Research Laboratory
+  domains:
+  - arl.army.mil
+  aliases:
+  - ARL
+- name: Science and Technology Policy Institute
+  domains:
+  - ida.org
+  aliases:
+  - STPI
+- name: Institute for Scientific Research
+  domains:
+  - isr.umd.edu
+- name: Salk Institute for Biological Studies
+  domains:
+  - salk.edu
+  aliases:
+  - Salk Institute
+- name: Scripps Research
+  domains:
+  - scripps.edu
+  aliases:
+  - Scripps Research
+- name: Cold Spring Harbor Laboratory
+  domains:
+  - cshl.edu
+  aliases:
+  - Cold Spring Harbor
+- name: Broad Institute
+  domains:
+  - broadinstitute.org
+  aliases:
+  - Broad Institute
+- name: Whitehead Institute
+  domains:
+  - wi.mit.edu
+  aliases:
+  - Whitehead Institute
+- name: Howard Hughes Medical Institute
+  domains:
+  - hhmi.org
+  aliases:
+  - HHMI
+- name: Allen Institute
+  domains:
+  - alleninstitute.org
+  aliases:
+  - Allen Institute
+- name: Fred Hutchinson Cancer Center
+  domains:
+  - fredhutch.org
+  aliases:
+  - Fred Hutch
+- name: Memorial Sloan Kettering Cancer Center
+  domains:
+  - mskcc.org
+  aliases:
+  - MSK
+  - Sloan Kettering
+- name: Dana-Farber Cancer Institute
+  domains:
+  - dana-farber.org
+  aliases:
+  - Dana-Farber
+- name: MD Anderson Cancer Center
+  domains:
+  - mdanderson.org
+  aliases:
+  - MD Anderson
+- name: Mayo Clinic
+  domains:
+  - mayoclinic.org
+  aliases:
+  - Mayo Clinic
+- name: Cleveland Clinic
+  domains:
+  - clevelandclinic.org
+  aliases:
+  - Cleveland Clinic
+- name: Rockefeller University
+  domains:
+  - rockefeller.edu
+  aliases:
+  - Rockefeller University
+- name: Institute for Advanced Study
+  domains:
+  - ias.edu
+  aliases:
+  - IAS
+- name: Santa Fe Institute
+  domains:
+  - santafe.edu
+  aliases:
+  - Santa Fe Institute
+- name: SETI Institute
+  domains:
+  - seti.org
+  aliases:
+  - SETI
+- name: Space Telescope Science Institute
+  domains:
+  - stsci.edu
+  aliases:
+  - STScI
+- name: Woods Hole Oceanographic Institution
+  domains:
+  - whoi.edu
+  aliases:
+  - WHOI
+- name: Scripps Institution of Oceanography
+  domains:
+  - scripps.ucsd.edu
+  aliases:
+  - Scripps Oceanography
+- name: Lamont-Doherty Earth Observatory
+  domains:
+  - ldeo.columbia.edu
+  aliases:
+  - Lamont-Doherty
+- name: Fermi Research Alliance
+  domains:
+  - fnal.gov
+- name: Battelle Memorial Institute
+  domains:
+  - battelle.org
+  aliases:
+  - Battelle
+- name: RTI International
+  domains:
+  - rti.org
+  aliases:
+  - RTI
+- name: Westat Inc.
+  domains:
+  - westat.com
+  aliases:
+  - Westat
+- name: Mathematica Inc.
+  domains:
+  - mathematica.org
+  aliases:
+  - Mathematica
+- name: Abt Associates
+  domains:
+  - abtassociates.com
+  aliases:
+  - Abt Associates
+- name: RAND Europe
+  domains:
+  - rand.org
+- name: Pew Charitable Trusts
+  domains:
+  - pewtrusts.org
+  aliases:
+  - Pew Trusts
+- name: MacArthur Foundation
+  domains:
+  - macfound.org
+  aliases:
+  - MacArthur Foundation
+- name: Ford Foundation
+  domains:
+  - fordfoundation.org
+  aliases:
+  - Ford Foundation
+- name: Rockefeller Foundation
+  domains:
+  - rockefellerfoundation.org
+  aliases:
+  - Rockefeller Foundation
+- name: Gates Foundation
+  domains:
+  - gatesfoundation.org
+  aliases:
+  - Bill & Melinda Gates Foundation
+  - Gates Foundation
+- name: Kaiser Family Foundation
+  domains:
+  - kff.org
+  aliases:
+  - KFF
+  - Kaiser Family Foundation
+- name: Commonwealth Fund
+  domains:
+  - commonwealthfund.org
+  aliases:
+  - Commonwealth Fund
+- name: Robert Wood Johnson Foundation
+  domains:
+  - rwjf.org
+  aliases:
+  - RWJF
+notes: Includes major policy think tanks, DOE national laboratories, federal research
+  agencies, and prestigious research institutes. Non-blocklisted government agencies
+  may still be valid sources.

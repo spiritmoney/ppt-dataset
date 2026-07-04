@@ -1,0 +1,920 @@
+# Elite U.S. universities and large public lecture archives
+# Exclude course materials, faculty lectures, institutional training
+# Last updated: 2026-07-03
+
+version: '2026-07-03'
+match_mode: contains
+institutions:
+- name: Harvard University
+  domains:
+  - harvard.edu
+  aliases:
+  - Harvard
+- name: Stanford University
+  domains:
+  - stanford.edu
+  aliases:
+  - Stanford
+- name: Massachusetts Institute of Technology
+  domains:
+  - mit.edu
+  aliases:
+  - MIT
+- name: Yale University
+  domains:
+  - yale.edu
+  aliases:
+  - Yale
+- name: Princeton University
+  domains:
+  - princeton.edu
+  aliases:
+  - Princeton
+- name: Columbia University
+  domains:
+  - columbia.edu
+  aliases:
+  - Columbia
+- name: University of Chicago
+  domains:
+  - uchicago.edu
+  aliases:
+  - UChicago
+- name: University of Pennsylvania
+  domains:
+  - upenn.edu
+  - wharton.upenn.edu
+  aliases:
+  - Penn
+  - UPenn
+  - Wharton
+- name: California Institute of Technology
+  domains:
+  - caltech.edu
+  aliases:
+  - Caltech
+- name: Duke University
+  domains:
+  - duke.edu
+  aliases:
+  - Duke
+- name: Northwestern University
+  domains:
+  - northwestern.edu
+  aliases:
+  - Northwestern
+- name: Johns Hopkins University
+  domains:
+  - hopkins.edu
+  - jhu.edu
+  aliases:
+  - JHU
+  - Johns Hopkins
+- name: Cornell University
+  domains:
+  - cornell.edu
+  aliases:
+  - Cornell
+- name: University of California Berkeley
+  domains:
+  - berkeley.edu
+  aliases:
+  - Berkeley
+  - Cal
+  - UC Berkeley
+- name: University of California Los Angeles
+  domains:
+  - ucla.edu
+  aliases:
+  - UCLA
+- name: University of Michigan
+  domains:
+  - umich.edu
+  aliases:
+  - Michigan
+  - UMich
+- name: Carnegie Mellon University
+  domains:
+  - cmu.edu
+  aliases:
+  - CMU
+  - Carnegie Mellon
+- name: New York University
+  domains:
+  - nyu.edu
+  - stern.nyu.edu
+  aliases:
+  - NYU
+- name: University of Texas at Austin
+  domains:
+  - utexas.edu
+  aliases:
+  - UT Austin
+- name: University of Washington
+  domains:
+  - uw.edu
+  - washington.edu
+  aliases:
+  - UW
+  - University of Washington
+- name: Georgia Institute of Technology
+  domains:
+  - gatech.edu
+  aliases:
+  - GT
+  - Georgia Tech
+- name: University of Illinois Urbana-Champaign
+  domains:
+  - illinois.edu
+  - uiuc.edu
+  aliases:
+  - Illinois
+  - UIUC
+- name: University of Southern California
+  domains:
+  - usc.edu
+  aliases:
+  - USC
+- name: Boston University
+  domains:
+  - bu.edu
+  aliases:
+  - BU
+- name: University of Wisconsin-Madison
+  domains:
+  - wisc.edu
+  aliases:
+  - UW-Madison
+  - Wisconsin
+- name: Brown University
+  domains:
+  - brown.edu
+  aliases:
+  - Brown
+- name: Dartmouth College
+  domains:
+  - dartmouth.edu
+  aliases:
+  - Dartmouth
+- name: Vanderbilt University
+  domains:
+  - vanderbilt.edu
+  aliases:
+  - Vanderbilt
+- name: Rice University
+  domains:
+  - rice.edu
+  aliases:
+  - Rice
+- name: University of Notre Dame
+  domains:
+  - nd.edu
+  aliases:
+  - Notre Dame
+- name: Washington University in St. Louis
+  domains:
+  - wustl.edu
+  aliases:
+  - WashU
+- name: Emory University
+  domains:
+  - emory.edu
+  aliases:
+  - Emory
+- name: Georgetown University
+  domains:
+  - georgetown.edu
+  aliases:
+  - Georgetown
+- name: University of Virginia
+  domains:
+  - virginia.edu
+  aliases:
+  - UVA
+- name: University of North Carolina at Chapel Hill
+  domains:
+  - unc.edu
+  aliases:
+  - Chapel Hill
+  - UNC
+- name: University of California San Diego
+  domains:
+  - ucsd.edu
+  aliases:
+  - UCSD
+- name: University of California Davis
+  domains:
+  - ucdavis.edu
+  aliases:
+  - UC Davis
+- name: University of California Irvine
+  domains:
+  - uci.edu
+  aliases:
+  - UC Irvine
+- name: University of California Santa Barbara
+  domains:
+  - ucsb.edu
+  aliases:
+  - UCSB
+- name: University of California Santa Cruz
+  domains:
+  - ucsc.edu
+  aliases:
+  - UCSC
+- name: University of California Riverside
+  domains:
+  - ucr.edu
+  aliases:
+  - UCR
+- name: University of California Merced
+  domains:
+  - ucmerced.edu
+  aliases:
+  - UC Merced
+- name: University of California San Francisco
+  domains:
+  - ucsf.edu
+  aliases:
+  - UCSF
+- name: University of Florida
+  domains:
+  - ufl.edu
+  aliases:
+  - Florida
+  - UF
+- name: University of Maryland
+  domains:
+  - umaryland.edu
+  - umd.edu
+  aliases:
+  - Maryland
+  - UMD
+- name: Pennsylvania State University
+  domains:
+  - psu.edu
+  aliases:
+  - Penn State
+- name: Ohio State University
+  domains:
+  - osu.edu
+  aliases:
+  - Ohio State
+- name: Purdue University
+  domains:
+  - purdue.edu
+  aliases:
+  - Purdue
+- name: University of Minnesota
+  domains:
+  - umn.edu
+  aliases:
+  - Minnesota
+- name: Texas A&M University
+  domains:
+  - tamu.edu
+  aliases:
+  - Texas A&M
+- name: University of Arizona
+  domains:
+  - arizona.edu
+  aliases:
+  - Arizona
+- name: Arizona State University
+  domains:
+  - asu.edu
+  aliases:
+  - ASU
+- name: University of Colorado Boulder
+  domains:
+  - colorado.edu
+  aliases:
+  - CU Boulder
+- name: University of Pittsburgh
+  domains:
+  - pitt.edu
+  aliases:
+  - Pitt
+- name: Rutgers University
+  domains:
+  - rutgers.edu
+  aliases:
+  - Rutgers
+- name: Indiana University Bloomington
+  domains:
+  - indiana.edu
+  aliases:
+  - IU
+  - Indiana University
+- name: University of Iowa
+  domains:
+  - uiowa.edu
+  aliases:
+  - Iowa
+- name: Michigan State University
+  domains:
+  - msu.edu
+  aliases:
+  - Michigan State
+- name: University of Rochester
+  domains:
+  - rochester.edu
+  aliases:
+  - Rochester
+- name: Case Western Reserve University
+  domains:
+  - case.edu
+  aliases:
+  - Case Western
+- name: Tufts University
+  domains:
+  - tufts.edu
+  aliases:
+  - Tufts
+- name: Boston College
+  domains:
+  - bc.edu
+  aliases:
+  - Boston College
+- name: Northeastern University
+  domains:
+  - northeastern.edu
+  aliases:
+  - Northeastern
+- name: George Washington University
+  domains:
+  - gwu.edu
+  aliases:
+  - GWU
+  - George Washington
+- name: University of Miami
+  domains:
+  - miami.edu
+  aliases:
+  - Miami
+- name: Tulane University
+  domains:
+  - tulane.edu
+  aliases:
+  - Tulane
+- name: Wake Forest University
+  domains:
+  - wfu.edu
+  aliases:
+  - Wake Forest
+- name: Brandeis University
+  domains:
+  - brandeis.edu
+  aliases:
+  - Brandeis
+- name: Lehigh University
+  domains:
+  - lehigh.edu
+  aliases:
+  - Lehigh
+- name: Rensselaer Polytechnic Institute
+  domains:
+  - rpi.edu
+  aliases:
+  - RPI
+- name: University of California System
+  domains:
+  - universityofcalifornia.edu
+  aliases:
+  - UC System
+- name: Williams College
+  domains:
+  - williams.edu
+  aliases:
+  - Williams
+- name: Amherst College
+  domains:
+  - amherst.edu
+  aliases:
+  - Amherst
+- name: Swarthmore College
+  domains:
+  - swarthmore.edu
+  aliases:
+  - Swarthmore
+- name: Pomona College
+  domains:
+  - pomona.edu
+  aliases:
+  - Pomona
+- name: Wellesley College
+  domains:
+  - wellesley.edu
+  aliases:
+  - Wellesley
+- name: Bowdoin College
+  domains:
+  - bowdoin.edu
+  aliases:
+  - Bowdoin
+- name: Middlebury College
+  domains:
+  - middlebury.edu
+  aliases:
+  - Middlebury
+- name: Colgate University
+  domains:
+  - colgate.edu
+  aliases:
+  - Colgate
+- name: Hamilton College
+  domains:
+  - hamilton.edu
+  aliases:
+  - Hamilton
+- name: Bates College
+  domains:
+  - bates.edu
+  aliases:
+  - Bates
+- name: Davidson College
+  domains:
+  - davidson.edu
+  aliases:
+  - Davidson
+- name: Vassar College
+  domains:
+  - vassar.edu
+  aliases:
+  - Vassar
+- name: Haverford College
+  domains:
+  - haverford.edu
+  aliases:
+  - Haverford
+- name: Claremont McKenna College
+  domains:
+  - cmc.edu
+  aliases:
+  - CMC
+- name: Harvey Mudd College
+  domains:
+  - hmc.edu
+  aliases:
+  - Harvey Mudd
+- name: Pitzer College
+  domains:
+  - pitzer.edu
+  aliases:
+  - Pitzer
+- name: Scripps College
+  domains:
+  - scrippscollege.edu
+  aliases:
+  - Scripps
+- name: Washington and Lee University
+  domains:
+  - wlu.edu
+  aliases:
+  - Washington and Lee
+- name: Colby College
+  domains:
+  - colby.edu
+  aliases:
+  - Colby
+- name: Barnard College
+  domains:
+  - barnard.edu
+  aliases:
+  - Barnard
+- name: Smith College
+  domains:
+  - smith.edu
+  aliases:
+  - Smith
+- name: Mount Holyoke College
+  domains:
+  - mtholyoke.edu
+  aliases:
+  - Mount Holyoke
+- name: Bryn Mawr College
+  domains:
+  - brynmawr.edu
+  aliases:
+  - Bryn Mawr
+- name: Colorado College
+  domains:
+  - coloradocollege.edu
+  aliases:
+  - Colorado College
+- name: Grinnell College
+  domains:
+  - grinnell.edu
+  aliases:
+  - Grinnell
+- name: Macalester College
+  domains:
+  - macalester.edu
+  aliases:
+  - Macalester
+- name: Oberlin College
+  domains:
+  - oberlin.edu
+  aliases:
+  - Oberlin
+- name: Kenyon College
+  domains:
+  - kenyon.edu
+  aliases:
+  - Kenyon
+- name: Reed College
+  domains:
+  - reed.edu
+  aliases:
+  - Reed
+- name: Whitman College
+  domains:
+  - whitman.edu
+  aliases:
+  - Whitman
+- name: University of Richmond
+  domains:
+  - richmond.edu
+  aliases:
+  - Richmond
+- name: Lafayette College
+  domains:
+  - lafayette.edu
+  aliases:
+  - Lafayette
+- name: Bucknell University
+  domains:
+  - bucknell.edu
+  aliases:
+  - Bucknell
+- name: Villanova University
+  domains:
+  - villanova.edu
+  aliases:
+  - Villanova
+- name: Santa Clara University
+  domains:
+  - scu.edu
+  aliases:
+  - Santa Clara
+- name: Loyola Marymount University
+  domains:
+  - lmu.edu
+  aliases:
+  - LMU
+- name: Fordham University
+  domains:
+  - fordham.edu
+  aliases:
+  - Fordham
+- name: Syracuse University
+  domains:
+  - syr.edu
+  aliases:
+  - Syracuse
+- name: University of Connecticut
+  domains:
+  - uconn.edu
+  aliases:
+  - UConn
+- name: University of Delaware
+  domains:
+  - udel.edu
+  aliases:
+  - Delaware
+- name: University of Georgia
+  domains:
+  - uga.edu
+  aliases:
+  - UGA
+- name: University of Alabama
+  domains:
+  - ua.edu
+  aliases:
+  - Alabama
+- name: Auburn University
+  domains:
+  - auburn.edu
+  aliases:
+  - Auburn
+- name: Clemson University
+  domains:
+  - clemson.edu
+  aliases:
+  - Clemson
+- name: Virginia Tech
+  domains:
+  - vt.edu
+  aliases:
+  - Virginia Tech
+- name: North Carolina State University
+  domains:
+  - ncsu.edu
+  aliases:
+  - NC State
+- name: University of South Carolina
+  domains:
+  - sc.edu
+  aliases:
+  - South Carolina
+- name: University of Tennessee
+  domains:
+  - utk.edu
+  aliases:
+  - Tennessee
+- name: University of Kentucky
+  domains:
+  - uky.edu
+  aliases:
+  - Kentucky
+- name: University of Oklahoma
+  domains:
+  - ou.edu
+  aliases:
+  - Oklahoma
+- name: University of Kansas
+  domains:
+  - ku.edu
+  aliases:
+  - Kansas
+- name: University of Missouri
+  domains:
+  - missouri.edu
+  aliases:
+  - Mizzou
+- name: University of Nebraska
+  domains:
+  - unl.edu
+  aliases:
+  - Nebraska
+- name: University of Oregon
+  domains:
+  - uoregon.edu
+  aliases:
+  - Oregon
+- name: Oregon State University
+  domains:
+  - oregonstate.edu
+  aliases:
+  - Oregon State
+- name: University of Utah
+  domains:
+  - utah.edu
+  aliases:
+  - Utah
+- name: Brigham Young University
+  domains:
+  - byu.edu
+  aliases:
+  - BYU
+- name: University of Hawaii
+  domains:
+  - hawaii.edu
+  aliases:
+  - Hawaii
+- name: University of New Mexico
+  domains:
+  - unm.edu
+  aliases:
+  - UNM
+- name: University of Nevada Las Vegas
+  domains:
+  - unlv.edu
+  aliases:
+  - UNLV
+- name: University of Nevada Reno
+  domains:
+  - unr.edu
+  aliases:
+  - UNR
+- name: University of Wyoming
+  domains:
+  - uwyo.edu
+  aliases:
+  - Wyoming
+- name: University of Montana
+  domains:
+  - umt.edu
+  aliases:
+  - Montana
+- name: University of Idaho
+  domains:
+  - uidaho.edu
+  aliases:
+  - Idaho
+- name: University of Alaska
+  domains:
+  - alaska.edu
+  aliases:
+  - Alaska
+- name: University of Vermont
+  domains:
+  - uvm.edu
+  aliases:
+  - Vermont
+- name: University of New Hampshire
+  domains:
+  - unh.edu
+  aliases:
+  - UNH
+- name: University of Maine
+  domains:
+  - maine.edu
+  aliases:
+  - Maine
+- name: University of Rhode Island
+  domains:
+  - uri.edu
+  aliases:
+  - URI
+- name: University of Massachusetts Amherst
+  domains:
+  - umass.edu
+  aliases:
+  - UMass
+- name: Stony Brook University
+  domains:
+  - stonybrook.edu
+  aliases:
+  - Stony Brook
+- name: Binghamton University
+  domains:
+  - binghamton.edu
+  aliases:
+  - Binghamton
+- name: University at Buffalo
+  domains:
+  - buffalo.edu
+  aliases:
+  - Buffalo
+- name: Florida State University
+  domains:
+  - fsu.edu
+  aliases:
+  - Florida State
+- name: University of Central Florida
+  domains:
+  - ucf.edu
+  aliases:
+  - UCF
+- name: University of South Florida
+  domains:
+  - usf.edu
+  aliases:
+  - USF
+- name: Florida International University
+  domains:
+  - fiu.edu
+  aliases:
+  - FIU
+- name: George Mason University
+  domains:
+  - gmu.edu
+  aliases:
+  - George Mason
+- name: Virginia Commonwealth University
+  domains:
+  - vcu.edu
+  aliases:
+  - VCU
+- name: Temple University
+  domains:
+  - temple.edu
+  aliases:
+  - Temple
+- name: Drexel University
+  domains:
+  - drexel.edu
+  aliases:
+  - Drexel
+- name: University of Cincinnati
+  domains:
+  - uc.edu
+  aliases:
+  - Cincinnati
+- name: University of Louisville
+  domains:
+  - louisville.edu
+  aliases:
+  - Louisville
+- name: University of Memphis
+  domains:
+  - memphis.edu
+  aliases:
+  - Memphis
+- name: University of Arkansas
+  domains:
+  - uark.edu
+  aliases:
+  - Arkansas
+- name: Louisiana State University
+  domains:
+  - lsu.edu
+  aliases:
+  - LSU
+- name: University of Mississippi
+  domains:
+  - olemiss.edu
+  aliases:
+  - Ole Miss
+- name: Mississippi State University
+  domains:
+  - msstate.edu
+  aliases:
+  - Mississippi State
+- name: Baylor University
+  domains:
+  - baylor.edu
+  aliases:
+  - Baylor
+- name: Texas Tech University
+  domains:
+  - ttu.edu
+  aliases:
+  - Texas Tech
+- name: University of Houston
+  domains:
+  - uh.edu
+  aliases:
+  - Houston
+- name: Southern Methodist University
+  domains:
+  - smu.edu
+  aliases:
+  - SMU
+- name: Texas Christian University
+  domains:
+  - tcu.edu
+  aliases:
+  - TCU
+- name: University of Denver
+  domains:
+  - du.edu
+  aliases:
+  - Denver
+- name: University of Tulsa
+  domains:
+  - utulsa.edu
+  aliases:
+  - Tulsa
+- name: Washington State University
+  domains:
+  - wsu.edu
+  aliases:
+  - Washington State
+- name: University of California Los Angeles Extension
+  domains:
+  - uclaextension.edu
+  aliases:
+  - UCLA Extension
+- name: MIT OpenCourseWare
+  domains:
+  - ocw.mit.edu
+  aliases:
+  - MIT OCW
+- name: Stanford Online
+  domains:
+  - online.stanford.edu
+  aliases:
+  - Stanford Online
+- name: Harvard Extension School
+  domains:
+  - extension.harvard.edu
+  aliases:
+  - Harvard Extension
+- name: Coursera university partners
+  domains:
+  - coursera.org
+- name: edX
+  domains:
+  - edx.org
+  aliases:
+  - edX
+- name: Khan Academy
+  domains:
+  - khanacademy.org
+  aliases:
+  - Khan Academy
+exclusion_patterns:
+- lecture
+- course
+- syllabus
+- CS\d{3}
+- ECON\d{3}
+- MATH\d{3}
+- PHYS\d{3}
+- professor
+- midterm
+- final exam
+- homework
+- problem set
+- pset
+- recitation
+- office hours
+- spring 20
+- fall 20
+- module \d
+- week \d
+- chapter \d
+notes: Non-flagship community colleges are NOT on this list. Broad .edu denylist in
+  sources.yaml provides additional coverage.

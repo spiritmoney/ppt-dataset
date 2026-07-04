@@ -1,0 +1,3 @@
+# One presentation file URL per line (http/https only).
+# Example — replace with your bulk URL list for production scale.
+https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf

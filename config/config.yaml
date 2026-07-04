@@ -1,0 +1,64 @@
+# 6M URL discovery — search-driven, no file downloads (2 vCPU / 8 GB droplet)
+target_count: 6000000
+data_dir: data
+
+batch:
+  id_format: "BATCH-{date}-{seq:03d}"
+  records_per_batch: 10000
+
+# Phase 1: search engines + light same-domain crawl (no seed files)
+discovery:
+  enabled: true
+  concurrency: 300
+  crawl_concurrency: 80
+  timeout_sec: 12
+  max_depth: 1
+  max_pages_per_domain: 25
+  search_delay_sec: 1.0
+  results_per_query: 30
+  engines: [duckduckgo, bing, google]
+  queries_per_run: 40
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+# Phase 2: lightweight GET probe (first bytes only, no full downloads)
+phase2:
+  concurrency: 400
+  timeout_sec: 10
+  retries: 1
+  min_content_length: 10240
+  max_content_length: 209715200
+  require_category_keyword: false
+  probe_bytes: 512
+  verify_signature: true
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+blocklists:
+  - config/blocklists/fortune500.yaml
+  - config/blocklists/elite_universities.yaml
+  - config/blocklists/think_tanks.yaml
+
+category_keywords: config/category_keywords.yaml
+
+reporting:
+  manifest_columns:
+    - record_id
+    - source_url
+    - file_type
+    - domain
+    - batch_id
+    - content_type
+    - content_length
+    - http_status
+    - url_accessible
+    - page_title
+    - snippet
+    - organization
+    - category_match
+    - discovery_method
+    - parent_page_url
+    - discovered_at
+    - validated_at
+    - audit_id
+    - file_verified
+    - file_signature
+    - rejection_reason

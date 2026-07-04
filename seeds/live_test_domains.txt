@@ -1,0 +1,4 @@
+# Live integration test domains — real public sites
+nist.gov
+sba.gov
+cdc.gov

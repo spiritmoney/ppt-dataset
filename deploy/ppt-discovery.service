@@ -1,0 +1,27 @@
+[Unit]
+Description=PPT URL Discovery Pipeline (6M target)
+After=network-online.target postgresql.service
+Wants=network-online.target
+StartLimitIntervalSec=300
+StartLimitBurst=5
+
+[Service]
+Type=simple
+User=pptdiscovery
+Group=pptdiscovery
+WorkingDirectory=/opt/ppt-dataset-6m
+EnvironmentFile=/opt/ppt-dataset-6m/.env
+ExecStart=/opt/ppt-dataset-6m/.venv/bin/python cli.py run
+Restart=on-failure
+RestartSec=30
+TimeoutStopSec=120
+
+# 2 vCPU droplet — avoid thrashing under load
+Nice=5
+LimitNOFILE=65536
+
+StandardOutput=append:/var/log/ppt-discovery/service.log
+StandardError=append:/var/log/ppt-discovery/service.log
+
+[Install]
+WantedBy=multi-user.target
