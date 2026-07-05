@@ -398,10 +398,19 @@ class Database:
     def update_candidate(self, candidate_id: int, fields: dict[str, Any]) -> None:
         if not fields:
             return
+        fields = self._adapt_fields(fields)
         cols = ", ".join(f"{k} = %s" if self.is_postgres else f"{k} = ?" for k in fields)
         sql = f"UPDATE candidates SET {cols} WHERE id = {'%s' if self.is_postgres else '?'}"
         with self.connect() as conn:
             conn.execute(sql, (*fields.values(), candidate_id))
+
+    def _adapt_fields(self, fields: dict[str, Any]) -> dict[str, Any]:
+        if not self.is_postgres:
+            return fields
+        adapted = dict(fields)
+        if "file_verified" in adapted and isinstance(adapted["file_verified"], int):
+            adapted["file_verified"] = bool(adapted["file_verified"])
+        return adapted
 
     def qualified_count(self) -> int:
         with self.connect() as conn:

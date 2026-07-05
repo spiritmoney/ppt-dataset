@@ -190,7 +190,7 @@ class Phase2Prefilter:
             "audit_id": audit_id,
             "batch_id": batch_id,
             "source_url": source_url,
-            "file_verified": 0 if rejection else 1,
+            "file_verified": False if rejection else True,
             "file_signature": signature,
         }
 
