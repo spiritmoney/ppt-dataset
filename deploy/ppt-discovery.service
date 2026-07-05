@@ -12,6 +12,7 @@ Group=pptdiscovery
 WorkingDirectory=/opt/ppt-dataset-6m
 EnvironmentFile=/opt/ppt-dataset-6m/.env
 ExecStart=/opt/ppt-dataset-6m/.venv/bin/python cli.py run
+Environment=PYTHONUNBUFFERED=1
 Restart=on-failure
 RestartSec=30
 TimeoutStopSec=120

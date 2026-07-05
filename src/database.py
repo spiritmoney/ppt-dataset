@@ -94,6 +94,20 @@ def _utcnow() -> str:
     return datetime.now(timezone.utc).isoformat()
 
 
+def _first(row: Any) -> Any:
+    if row is None:
+        return None
+    if isinstance(row, dict):
+        return next(iter(row.values()))
+    return row[0]
+
+
+def _as_dict(row: Any) -> dict[str, Any]:
+    if isinstance(row, dict):
+        return row
+    return dict(row)
+
+
 class Database:
     def __init__(self, database_url: str):
         self.database_url = database_url
@@ -127,7 +141,7 @@ class Database:
                 "SELECT column_name FROM information_schema.columns WHERE table_name = %s",
                 (table,),
             ).fetchall()
-            return {r[0] for r in rows}
+            return {_first(r) if not isinstance(r, dict) else r["column_name"] for r in rows}
         rows = conn.execute(f"PRAGMA table_info({table})").fetchall()
         return {r[1] for r in rows}
 
@@ -135,8 +149,9 @@ class Database:
     def connect(self):
         if self.is_postgres:
             import psycopg
+            from psycopg.rows import dict_row
 
-            with psycopg.connect(self.database_url) as conn:
+            with psycopg.connect(self.database_url, row_factory=dict_row) as conn:
                 yield conn
                 conn.commit()
         else:
@@ -227,7 +242,7 @@ class Database:
     def total_url_count(self) -> int:
         with self.connect() as conn:
             row = conn.execute("SELECT COUNT(*) FROM candidates").fetchone()
-            return int(row[0])
+            return int(_first(row))
 
     def existing_urls(self, max_urls: int = 500_000) -> set[str]:
         """Canonical URLs already stored. Skips preload when table exceeds max_urls."""
@@ -235,7 +250,7 @@ class Database:
             return set()
         with self.connect() as conn:
             rows = conn.execute("SELECT url FROM candidates").fetchall()
-        return {row[0] if not isinstance(row, dict) else row["url"] for row in rows}
+        return {r["url"] for r in rows}
 
     def dedupe_existing(self) -> dict[str, int]:
         """Normalize stored URLs and remove duplicate canonical rows."""
@@ -249,10 +264,10 @@ class Database:
 
             groups: dict[str, list[tuple]] = {}
             for row in rows:
-                rid = row[0] if not isinstance(row, dict) else row["id"]
-                url = row[1] if not isinstance(row, dict) else row["url"]
-                status = row[2] if not isinstance(row, dict) else row["status"]
-                discovered_at = row[3] if not isinstance(row, dict) else row["discovered_at"]
+                rid = row["id"]
+                url = row["url"]
+                status = row["status"]
+                discovered_at = row["discovered_at"]
                 groups.setdefault(canonicalize_url(url), []).append(
                     (rid, url, status, discovered_at)
                 )
@@ -330,7 +345,7 @@ class Database:
                         f"UPDATE candidates SET status = 'checking' WHERE id IN ({ph})",
                         ids,
                     )
-            return [dict(r) for r in rows]
+            return [_as_dict(r) for r in rows]
 
     def pending_ppt_count(self) -> int:
         return self.pending_file_count(["ppt", "pptx"])
@@ -341,7 +356,7 @@ class Database:
                 row = conn.execute(
                     "SELECT COUNT(*) FROM candidates WHERE status = 'pending'"
                 ).fetchone()
-                return int(row[0])
+                return int(_first(row))
             clauses: list[str] = []
             if "ppt" in file_types or "pptx" in file_types:
                 clauses.append("(LOWER(url) LIKE '%.pptx' OR LOWER(url) LIKE '%.ppt')")
@@ -351,7 +366,7 @@ class Database:
             row = conn.execute(
                 f"SELECT COUNT(*) FROM candidates WHERE status = 'pending'{filter_sql}"
             ).fetchone()
-            return int(row[0])
+            return int(_first(row))
 
     def reclaim_checking(self) -> int:
         """Reset stuck 'checking' rows back to 'pending' (e.g. after interrupted phase2)."""
@@ -372,7 +387,7 @@ class Database:
         max_seq = 0
         prefix = f"{batch_id}_"
         for row in rows:
-            rid = row[0] if not isinstance(row, dict) else row["record_id"]
+            rid = row["record_id"]
             if rid and rid.startswith(prefix):
                 try:
                     max_seq = max(max_seq, int(rid[len(prefix):]))
@@ -393,7 +408,7 @@ class Database:
             row = conn.execute(
                 "SELECT COUNT(*) FROM candidates WHERE status = 'qualified'"
             ).fetchone()
-            return int(row[0])
+            return int(_first(row))
 
     def qualified_ppt_count(self) -> int:
         with self.connect() as conn:
@@ -403,19 +418,19 @@ class Database:
                 WHERE status = 'qualified' AND file_type IN ('ppt', 'pptx')
                 """
             ).fetchone()
-            return int(row[0])
+            return int(_first(row))
 
     def pending_count(self) -> int:
         with self.connect() as conn:
             row = conn.execute(
                 "SELECT COUNT(*) FROM candidates WHERE status = 'pending'"
             ).fetchone()
-            return int(row[0])
+            return int(_first(row))
 
     def next_batch_seq(self) -> int:
         with self.connect() as conn:
             row = conn.execute("SELECT COUNT(*) FROM batches").fetchone()
-            return int(row[0]) + 1
+            return int(_first(row)) + 1
 
     def iter_qualified(self, batch_id: str | None = None) -> Iterator[dict]:
         with self.connect() as conn:
@@ -429,7 +444,7 @@ class Database:
             else:
                 rows = conn.execute(base + " ORDER BY id").fetchall()
             for row in rows:
-                yield dict(row)
+                yield _as_dict(row)
 
     def write_audit(self, audit_path: Path, entry: dict) -> None:
         audit_path.parent.mkdir(parents=True, exist_ok=True)

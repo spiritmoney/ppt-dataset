@@ -174,6 +174,22 @@ def run(
         f"(search + GET probe, config={settings.config_path.name})"
     )
 
+    log = logging.getLogger(__name__)
+    try:
+        _run_loop(settings, db, discovery, prefilter, reporter, validate_limit)
+    except Exception:
+        log.exception("Pipeline crashed")
+        raise typer.Exit(code=1)
+
+
+def _run_loop(
+    settings: Settings,
+    db: Database,
+    discovery: Discovery,
+    prefilter: Phase2Prefilter,
+    reporter: Reporter,
+    validate_limit: int,
+) -> None:
     while db.qualified_count() < settings.target_count:
         if db.pending_count() < validate_limit:
             console.print("[cyan]Discovering via search + light crawl...[/cyan]")

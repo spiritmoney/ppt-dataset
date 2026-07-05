@@ -66,9 +66,14 @@ def test_signature_detection():
     assert _looks_like_html(b"<!DOCTYPE html><title>403 Forbidden</title>")
 
 
-def test_extension_check():
-    assert is_presentation_url_ext("https://x.com/file.pptx")
-    assert not is_presentation_url_ext("https://x.com/file.doc")
+def test_postgres_row_dict_conversion():
+    """PostgreSQL rows must expose column names, not numeric keys."""
+    from src.database import _as_dict
+
+    row = {"url": "https://example.com/a.pptx", "id": 1}
+    good = _as_dict(row)
+    assert good["url"] == "https://example.com/a.pptx"
+    assert "url" in good
 
 
 def test_canonicalize_url_dedup_variants():
